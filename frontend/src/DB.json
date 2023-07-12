@@ -1,0 +1,314 @@
+{
+  "dishes": [
+    {
+      "imgSrc": "https://res.cloudinary.com/ddzlhdlda/image/upload/e_bgremoval/v1688902942/bowl-chicken-biryani-with-rice-spices-white-background_787273-2237_wcz3wr.avif",
+      "name": "Biryani"
+    },
+    {
+      "imgSrc": "https://res.cloudinary.com/ddzlhdlda/image/upload/v1688900595/Foodie/1000_F_307651812_yiydVwvUeeZlTCuUs4E2aqsUMUlwIo86_hlkesc.jpg",
+      "name": "Pizza"
+    },
+    {
+      "imgSrc": "https://res.cloudinary.com/ddzlhdlda/image/upload/e_bgremoval/v1688903130/hamburger-isolated-white-background-fresh-burger-fastfood-with-beef-cheese_90220-1329_u8lvwu.avif",
+      "name": "Burger"
+    },
+    {
+      "imgSrc": "https://res.cloudinary.com/ddzlhdlda/image/upload/v1688903528/platter-food-with-meat-vegetables-it_900396-17313_aoj65d.jpg",
+      "name": "Rolls"
+    },
+    {
+      "imgSrc": "https://res.cloudinary.com/ddzlhdlda/image/upload/v1688906693/plate-dumplings-with-green-garnish-top_787273-1770_hbd6lo.avif",
+      "name": "Momos"
+    },
+    {
+      "imgSrc": "https://res.cloudinary.com/ddzlhdlda/image/upload/e_bgremoval/v1688906692/bowl-instant-noodles-with-green-peas-white-background_454225-5668_gzponq.avif",
+      "name": "Noodles"
+    },
+    {
+      "imgSrc": "https://res.cloudinary.com/ddzlhdlda/image/upload/e_bgremoval/v1688906692/plate-samosas-with-red-green-vegetable-top_664644-1010_tdt3gq.avif",
+      "name": "Samosa"
+    },
+    {
+      "imgSrc": "https://res.cloudinary.com/ddzlhdlda/image/upload/v1688906694/mapo-tofu-is-spicy-dish-made-with-tofu-minced-meat-spicy-sauce-generative-ai_935188-5_omz6jt.avif",
+      "name": "Paneer"
+    },
+    {
+      "imgSrc": "https://res.cloudinary.com/ddzlhdlda/image/upload/e_bgremoval/v1688906690/idly-idli-south-indian-main-breakfast-item-which-is-beautifully-arranged-aqua-color-plates_527904-2878_whjgcj.avif",
+      "name": "Idli"
+    },
+    {
+      "imgSrc": "https://res.cloudinary.com/ddzlhdlda/image/upload/e_bgremoval/v1688906682/frappe-drink-with-caramel-nuts-isolated-white-background-ai-generative_123827-24934_q70bxk.avif",
+      "name": "Milk Shake"
+    },
+    {
+      "imgSrc": "https://res.cloudinary.com/ddzlhdlda/image/upload/e_bgremoval/v1688906687/plate-baked-chicken-wings-asian-style-tomatoes-sauce-isolated-white-background_861799-325_i0bene.avif",
+      "name": "Chicken"
+    },
+    {
+      "imgSrc": "https://res.cloudinary.com/ddzlhdlda/image/upload/e_bgremoval/v1688906687/delicious-sandwich-isolated-white-background_861799-860_lrgyfj.jpg",
+      "name": "Sandwich"
+    },
+    {
+      "imgSrc": "https://res.cloudinary.com/ddzlhdlda/image/upload/e_bgremoval/v1688906690/masala-dosa-is-south-indian-meal-served-with-sambhar-coconut-chutney-selective-focus_466689-22907_b1jo6g.avif",
+      "name": "Dosa"
+    },
+    {
+      "imgSrc": "https://res.cloudinary.com/ddzlhdlda/image/upload/e_bgremoval/v1688906684/bowl-ice-cream-with-black-berry-top_787273-1501_mmv2de.jpg",
+      "name": "IceCream"
+    },
+    {
+      "imgSrc": "https://res.cloudinary.com/ddzlhdlda/image/upload/e_bgremoval/v1688906690/panipuri-shot-golgappa-shots-different-flavours-water-served-small-glasses-with-stuffed-puri-indian-starter-snack_466689-80444_eepscx.avif",
+      "name": "Panipuri"
+    },
+    {
+      "imgSrc": "https://res.cloudinary.com/ddzlhdlda/image/upload/e_bgremoval/v1688906693/victoria-sponge-cake-isolated-white-background-traditional-london-dessert-ai-generative_123827-24996_jsx86t.avif",
+      "name": "Cake"
+    },
+    {
+      "imgSrc": "https://res.cloudinary.com/ddzlhdlda/image/upload/e_bgremoval/v1688906684/indian-cuisine-vegetable-manchurian-white-background_55610-1875_hvlsav.jpg",
+      "name": "Manchurian"
+    },
+    {
+      "imgSrc": "https://res.cloudinary.com/ddzlhdlda/image/upload/e_bgremoval/v1688906683/victoria-sponge-cake-isolated-white-background-traditional-london-dessert-ai-generative_123827-24998_cpj45v.avif",
+      "name": "Pastry"
+    },
+    {
+      "imgSrc": "https://res.cloudinary.com/ddzlhdlda/image/upload/e_bgremoval,z_2.2/v1688914481/sweets-from-india-all-occasions_872147-18121_hmqfas.avif",
+      "name": "Sweets"
+    },
+    {
+      "imgSrc": "https://res.cloudinary.com/ddzlhdlda/image/upload/e_bgremoval,z_2.3/v1688914807/360_F_553983695_YT5KT6p9luiJGpAINrzf4z5EQzX2JjKV_odth0t.jpg",
+      "name": "CholeBhature"
+    },
+    {
+      "imgSrc": "https://res.cloudinary.com/ddzlhdlda/image/upload/e_bgremoval/v1688906691/stack-tortillas-white-background-generative-ai_797840-4472_qsommo.jpg",
+      "name": "Paratha"
+    },
+    {
+      "imgSrc": "https://res.cloudinary.com/ddzlhdlda/image/upload/e_bgremoval,z_2.7/v1688915361/indian-food-thali_57665-1351_m8aqt4.jpg",
+      "name": "Thali"
+    }
+  ],
+  "offerBanner": [
+    {
+      "imgSrc": "https://lh3.googleusercontent.com/1dnpy9bodKM3EMC2yrEZz8Eg1cSfOixYrjprbnfAyYLxHUoh-9X5LIHcmdoCcx6Xu2Xgn8gyUJR7k70G-lMXx1GYidc1awA3KMr_XDOGtQ=w360-rw",
+      "navigationLink": "#"
+    },
+    {
+      "imgSrc": "https://lh3.googleusercontent.com/7U3zVDTaGAfTJqwmGvdt7yZvNl6Y5Ur9dUoTu-1LXQmKw5vHy6TVoyTEXsuPHy3YfWXtVAkWSG8SwaXOG8WK-rLOLUnC4FxAcJQ0zM8=w360-rw",
+      "navigationLink": "#"
+    },
+    {
+      "imgSrc": "https://lh3.googleusercontent.com/cNUH7f7-1tpsbF9cGzqhuSaiSBxap4wHJ6F4a988A4NpF9Sussz_Q-t0BqLdz1tFGMaRP19pdiqDgLV31N2uyV9siVFByebTPa4tzL2X=w360-rw",
+      "navigationLink": "#"
+    },
+    {
+      "imgSrc": "https://lh3.googleusercontent.com/ggilWHDS6YSG5VHHZW6gK2Ac1i7TF0RSD4FaLwvR5ApFkJ31TKM7NXEpvbaTA6NV7yQNnS3PsLWpPUoo3QG3iDCyecZHMyQkrex488KVZQ=w360-rw",
+      "navigationLink": "#"
+    },
+    {
+      "imgSrc": "https://lh3.googleusercontent.com/dDkFOzSAmSSiwR-qHvDv-ZbyI_bgk7snzZSy-utQYT0FGqwuYXGxvz9ed_0pNI5qlOKiUbD4ikdfwYudtmTptjor7g9bnpZmYVu2etM=w360-rw",
+      "navigationLink": "#"
+    },
+    {
+      "imgSrc": "https://lh3.googleusercontent.com/5SaR8uSEMA-75e-Gd3HasRfnKNnvGSpGkS5dTSrrB0XOHvW716SWg_axX4gbyxir1gWEMRTqbqZRnSWNX5M3q-NQe1h3u3hvYaI8vWwc=w360-rw",
+      "navigationLink": "#"
+    },
+    {
+      "imgSrc": "https://lh3.googleusercontent.com/bj8QKMoJ9AmG1I_qAujVG9_BdJzopH506NBAIUa1z35FB4O2rCkabkgV99LnyUdg-divSysYojFznlOAYPNL_k3m3Z8qToJE4Z6SNNYs=w360-rw",
+      "navigationLink": "#"
+    },
+    {
+      "imgSrc": "https://lh3.googleusercontent.com/WtP1jNCb3IZHMqmz6bQXDh-tql6OV7mBU-jbA30x-AcWNNZmVle4SM2YRTo4M380JcDRQMK_FSF_c9Ruzp4L3FyQDdZGYBEFkSWP8DY=w360-rw",
+      "navigationLink": "#"
+    },
+    {
+      "imgSrc": "https://lh3.googleusercontent.com/HyCXZh-8uZFev9meZF48p-OvBjg0sHRatk3bdfSTUt-edZvr70rq-6MWHEdd9na3yBRRcKMtmNefK5d4NART36Xn3MxuEc1oLQCycqDa=w360-rw",
+      "navigationLink": "#"
+    }
+  ],
+  "resturant": [
+    {
+      "imgSrc": "https://res.cloudinary.com/ddzlhdlda/image/upload/v1688906683/plate-food-with-different-dishes-including-chicken-rice-other-food_1340-24267_jjvx3u.avif",
+      "hotelName": "Hotel Ocean Breeze",
+      "dishes": "North Indian,South Indian",
+      "rating": "4.3",
+      "delivery time": "35-40",
+      "distance": "3",
+      "offer": "40% Off selected items"
+    },
+    {
+      "imgSrc": "https://res.cloudinary.com/ddzlhdlda/image/upload/v1689009913/grilled-seafood-paella-gourmet-healthy-meal-generated-by-ai_188544-39253_yb68yu.jpg",
+      "hotelName": "The Brunch House 2.0",
+      "dishes": "Indian, Biryani, Chinese",
+      "rating": "4.2",
+      "delivery time": "40-50",
+      "distance": "8",
+      "offer": "50% off upto ₹120"
+    },
+    {
+      "imgSrc": "https://res.cloudinary.com/ddzlhdlda/image/upload/v1689011433/freshly-baked-pizza-rustic-wooden-table-generated-by-ai_24640-80691_njfvf0.jpg",
+      "hotelName": "Pizza Musketeer",
+      "dishes": "Pizzas, Fast Food, Snacks, Chinese",
+      "rating": "3.8",
+      "delivery time": "30-40",
+      "distance": "7",
+      "offer": "20% off upto ₹80",
+      "bannerImg": "https://res.cloudinary.com/ddzlhdlda/image/upload/v1689091778/freshly-baked-pizza-with-mozzarella-salami-generated-by-ai_24640-80805_llmryr.avif",
+      "closingTime": "11:30:00 PM",
+      "openingTime": "10:30:00 AM",
+      "noOfReviws": "125",
+      "menu": [
+        {
+          "Recommended": [
+            {
+              "itemImg": "https://img.freepik.com/free-photo/freshly-baked-pizza-rustic-wooden-table-generated-by-ai_24640-80691.jpg?t=st=1689066157~exp=1689069757~hmac=7c3f379a826b894fad6b5a4be324c19ccc79162ce0c25e7c90d3a3f8566179d1&w=1380",
+              "itemName": "Tandoori Paneer",
+              "itemDescription": "Serves 1 | It's our signature. Spiced Paneer, Crunchy Onions & Green Capsicum, spicy Red Paprika with delicious Tandoori Sauce and 100% mozzarella cheese!",
+              "itemRating": "3.9",
+              "price": "300",
+              "id":1
+            },
+            {
+              "itemImg": "https://img.freepik.com/free-photo/freshly-baked-pizza-rustic-wooden-table-generated-by-ai_24640-80691.jpg?t=st=1689066157~exp=1689069757~hmac=7c3f379a826b894fad6b5a4be324c19ccc79162ce0c25e7c90d3a3f8566179d1&w=1380",
+              "itemName": "Tandoori Paneer",
+              "itemDescription": "Serves 1 | It's our signature. Spiced Paneer, Crunchy Onions & Green Capsicum, spicy Red Paprika with delicious Tandoori Sauce and 100% mozzarella cheese!",
+              "itemRating": "3.9",
+              "price": "200",
+              "id":2
+            },
+            {
+              "itemImg": "https://img.freepik.com/free-photo/freshly-baked-pizza-rustic-wooden-table-generated-by-ai_24640-80691.jpg?t=st=1689066157~exp=1689069757~hmac=7c3f379a826b894fad6b5a4be324c19ccc79162ce0c25e7c90d3a3f8566179d1&w=1380",
+              "itemName": "Tandoori Paneer",
+              "itemDescription": "Serves 1 | It's our signature. Spiced Paneer, Crunchy Onions & Green Capsicum, spicy Red Paprika with delicious Tandoori Sauce and 100% mozzarella cheese!",
+              "itemRating": "3.9",
+              "price": "100",
+              "id":3
+            },
+            {
+              "itemImg": "https://img.freepik.com/free-photo/freshly-baked-pizza-rustic-wooden-table-generated-by-ai_24640-80691.jpg?t=st=1689066157~exp=1689069757~hmac=7c3f379a826b894fad6b5a4be324c19ccc79162ce0c25e7c90d3a3f8566179d1&w=1380",
+              "itemName": "Tandoori Paneer",
+              "itemDescription": "Serves 1 | It's our signature. Spiced Paneer, Crunchy Onions & Green Capsicum, spicy Red Paprika with delicious Tandoori Sauce and 100% mozzarella cheese!",
+              "itemRating": "3.9",
+              "price": "319",
+              "id":4
+            },
+            {
+              "itemImg": "https://img.freepik.com/free-photo/freshly-baked-pizza-rustic-wooden-table-generated-by-ai_24640-80691.jpg?t=st=1689066157~exp=1689069757~hmac=7c3f379a826b894fad6b5a4be324c19ccc79162ce0c25e7c90d3a3f8566179d1&w=1380",
+              "itemName": "Tandoori Paneer",
+              "itemDescription": "Serves 1 | It's our signature. Spiced Paneer, Crunchy Onions & Green Capsicum, spicy Red Paprika with delicious Tandoori Sauce and 100% mozzarella cheese!",
+              "itemRating": "3.9",
+              "price": "319",
+              "id":5
+            },
+            {
+              "itemImg": "https://img.freepik.com/free-photo/freshly-baked-pizza-rustic-wooden-table-generated-by-ai_24640-80691.jpg?t=st=1689066157~exp=1689069757~hmac=7c3f379a826b894fad6b5a4be324c19ccc79162ce0c25e7c90d3a3f8566179d1&w=1380",
+              "itemName": "Tandoori Paneer",
+              "itemDescription": "Serves 1 | It's our signature. Spiced Paneer, Crunchy Onions & Green Capsicum, spicy Red Paprika with delicious Tandoori Sauce and 100% mozzarella cheese!",
+              "itemRating": "3.9",
+              "price": "319",
+              "id":6
+            }
+          ]
+        },
+        {
+          "Veg Pizza": [
+            {
+              "itemImg": "https://img.freepik.com/free-photo/freshly-baked-pizza-rustic-wooden-table-generated-by-ai_24640-80691.jpg?t=st=1689066157~exp=1689069757~hmac=7c3f379a826b894fad6b5a4be324c19ccc79162ce0c25e7c90d3a3f8566179d1&w=1380",
+              "itemName": "Tandoori Paneer",
+              "itemDescription": "Serves 1 | It's our signature. Spiced Paneer, Crunchy Onions & Green Capsicum, spicy Red Paprika with delicious Tandoori Sauce and 100% mozzarella cheese!",
+              "itemRating": "3.9",
+              "price": "319",
+              "id":7
+            },
+            {
+              "itemImg": "https://img.freepik.com/free-photo/freshly-baked-pizza-rustic-wooden-table-generated-by-ai_24640-80691.jpg?t=st=1689066157~exp=1689069757~hmac=7c3f379a826b894fad6b5a4be324c19ccc79162ce0c25e7c90d3a3f8566179d1&w=1380",
+              "itemName": "Tandoori Paneer",
+              "itemDescription": "Serves 1 | It's our signature. Spiced Paneer, Crunchy Onions & Green Capsicum, spicy Red Paprika with delicious Tandoori Sauce and 100% mozzarella cheese!",
+              "itemRating": "3.9",
+              "price": "319",
+              "id":8
+            },
+            {
+              "itemImg": "https://img.freepik.com/free-photo/freshly-baked-pizza-rustic-wooden-table-generated-by-ai_24640-80691.jpg?t=st=1689066157~exp=1689069757~hmac=7c3f379a826b894fad6b5a4be324c19ccc79162ce0c25e7c90d3a3f8566179d1&w=1380",
+              "itemName": "Tandoori Paneer",
+              "itemDescription": "Serves 1 | It's our signature. Spiced Paneer, Crunchy Onions & Green Capsicum, spicy Red Paprika with delicious Tandoori Sauce and 100% mozzarella cheese!",
+              "itemRating": "3.9",
+              "price": "319",
+              "id":9
+            },
+            {
+              "itemImg": "https://img.freepik.com/free-photo/freshly-baked-pizza-rustic-wooden-table-generated-by-ai_24640-80691.jpg?t=st=1689066157~exp=1689069757~hmac=7c3f379a826b894fad6b5a4be324c19ccc79162ce0c25e7c90d3a3f8566179d1&w=1380",
+              "itemName": "Tandoori Paneer",
+              "itemDescription": "Serves 1 | It's our signature. Spiced Paneer, Crunchy Onions & Green Capsicum, spicy Red Paprika with delicious Tandoori Sauce and 100% mozzarella cheese!",
+              "itemRating": "3.9",
+              "price": "319",
+              "id":10
+            },
+            {
+              "itemImg": "https://img.freepik.com/free-photo/freshly-baked-pizza-rustic-wooden-table-generated-by-ai_24640-80691.jpg?t=st=1689066157~exp=1689069757~hmac=7c3f379a826b894fad6b5a4be324c19ccc79162ce0c25e7c90d3a3f8566179d1&w=1380",
+              "itemName": "Tandoori Paneer",
+              "itemDescription": "Serves 1 | It's our signature. Spiced Paneer, Crunchy Onions & Green Capsicum, spicy Red Paprika with delicious Tandoori Sauce and 100% mozzarella cheese!",
+              "itemRating": "3.9",
+              "price": "319",
+              "id":11
+            },
+            {
+              "itemImg": "https://img.freepik.com/free-photo/freshly-baked-pizza-rustic-wooden-table-generated-by-ai_24640-80691.jpg?t=st=1689066157~exp=1689069757~hmac=7c3f379a826b894fad6b5a4be324c19ccc79162ce0c25e7c90d3a3f8566179d1&w=1380",
+              "itemName": "Tandoori Paneer",
+              "itemDescription": "Serves 1 | It's our signature. Spiced Paneer, Crunchy Onions & Green Capsicum, spicy Red Paprika with delicious Tandoori Sauce and 100% mozzarella cheese!",
+              "itemRating": "3.9",
+              "price": "319",
+              "id":12
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "imgSrc": "https://res.cloudinary.com/ddzlhdlda/image/upload/v1689011668/grilled-beef-burger-with-cheese-fries-generated-by-ai_24640-81640_rxcjcp.jpg",
+      "hotelName": "Rocking Rooster",
+      "dishes": "Indian, Burgers, Pizzas",
+      "rating": "3.9",
+      "delivery time": "42-55",
+      "distance": "11",
+      "offer": "40% off upto ₹100"
+    },
+    {
+      "imgSrc": "https://res.cloudinary.com/ddzlhdlda/image/upload/v1689012494/trendy-cafe-with-variety-milkshakes-soft-drinks-menu-created-with-generative-ai_124507-172725_sozzxo.jpg",
+      "hotelName": "The Squeeze Bar",
+      "dishes": "Beverages, Juices",
+      "rating": "4.1",
+      "delivery time": "45-55",
+      "distance": "12",
+      "offer": "50% off upto ₹120"
+    },
+    {
+      "imgSrc": "https://res.cloudinary.com/ddzlhdlda/image/upload/v1689012762/sweet-pastry-display-fresh-baked-goodness-generated-by-ai_188544-40880_fqkhf2.jpg",
+      "hotelName": "Cake Me Away",
+      "dishes": "Bakery, Ice Cream, Snacks",
+      "rating": "4.2",
+      "delivery time": "44",
+      "distance": "10",
+      "offer": "20% off upto ₹50"
+    },
+    {
+      "imgSrc": "https://res.cloudinary.com/ddzlhdlda/image/upload/v1689013031/wp1939591_uvzvov.jpg",
+      "hotelName": "KFC",
+      "dishes": "Burgers, Biryani, Fast Food, Snacks",
+      "rating": "3.8",
+      "delivery time": "30-35",
+      "distance": "12",
+      "offer": "10% off upto ₹40"
+    },
+    {
+      "imgSrc": "https://res.cloudinary.com/ddzlhdlda/image/upload/v1689013333/pizza-with-slice-being-lifted-up-word-pizza-it_779834-3140_pjc6g0.jpg",
+      "hotelName": "Pizza Hut",
+      "dishes": "Pizzas",
+      "rating": "3.8",
+      "delivery time": "35-40",
+      "distance": "11",
+      "offer": "30% off upto ₹60"
+    }
+  ]
+}
