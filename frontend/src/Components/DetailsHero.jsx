@@ -1,13 +1,14 @@
 import React, { useState } from "react";
 import "../Styles/DetailsHero.css";
 import Data from ".././DB.json";
-import { Link } from "react-router-dom";
+import { useNavigate } from "react-router-dom";
 const DetailsHero = () => {
   const { resturant } = Data;
   const hotel = resturant[2];
   const [caratBtn, setCaratBtn] = useState(true);
   const [clickedAddBtn, setClickedAddBtn] = useState([]);
   const [clickedCaratBtn, setClickedCaratBtn] = useState(null);
+  const navigate = useNavigate();
   const handlerCaratBtn = (index) => {
     if (clickedCaratBtn === index) {
       setCaratBtn(!caratBtn);
@@ -192,21 +193,31 @@ const DetailsHero = () => {
                             </div>
                           </div>
                           <div className="dishContent">
+                            <div className="dishesType">
+                              <img
+                                src={
+                                  item.type === "non-veg"
+                                    ? "https://res.cloudinary.com/ddzlhdlda/image/upload/v1689236363/icons8-non-vegetarian-food-symbol-48_c9qpyy.png"
+                                    : "https://res.cloudinary.com/ddzlhdlda/image/upload/v1688979024/8GoCcnPbe14i0JcydkYrkhkNgqDebwkIhDDSb0dNIuCeUL53MdSM1pZOAWyRPw-jgAkGp8Ksnk-fdymgbEioRbhmxeRAERVEjAQ0h0GGFQ_jqgpi8.png"
+                                }
+                                alt=""
+                                style={{
+                                  width: "18px",
+                                  height: "18px",
+                                }}
+                              />
+                            </div>
                             <div className="dishTitle fs-6">
                               {item.itemName}
                             </div>
+                            <div className="ratingButton dishRating">
+                              {item.itemRating}
+                              <i className="fa-regular fa-star"></i>
+                            </div>
+                            <div className="dishPrice">₹ {item.price}</div>
                             <div className="dishSub-title">
                               {item.itemDescription}
                             </div>
-                            <div className="ratingButton dishRating">
-                              {item.itemRating}
-                              <i
-                                className="fa-regular fa-star"
-                                style={{ color: "white", marginLeft: "5px" }}
-                              ></i>
-                            </div>
-
-                            <div className="dishPrice">₹ {item.price}</div>
                           </div>
                         </div>
                       );
@@ -253,7 +264,18 @@ const DetailsHero = () => {
                     return accum + curr.quantity * curr.item.price;
                   }, 0)}
                 </div>
-                <Link className="cartActionBtn anchorText" to="/cart">
+                <div
+                  className="cartActionBtn anchorText"
+                  onClick={() =>
+                    navigate("/cart", {
+                      state: {
+                        hotelName: hotel.hotelName,
+                        hotelBanner: hotel.bannerImg,
+                        cartDetails: clickedAddBtn,
+                      },
+                    })
+                  }
+                >
                   <div className="cartActionTitle">View Cart</div>
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
@@ -268,7 +290,7 @@ const DetailsHero = () => {
                       style={{ fill: "white", fillRule: "evenodd" }}
                     ></path>
                   </svg>
-                </Link>
+                </div>
               </div>
             </div>
           </div>
@@ -276,7 +298,7 @@ const DetailsHero = () => {
         <div
           className="modal fade"
           id="exampleModal"
-          tabindex="-1"
+          tabIndex="-1"
           aria-labelledby="exampleModalLabel"
           aria-hidden="true"
         >
@@ -291,8 +313,6 @@ const DetailsHero = () => {
                     <div className="menuList" key={index}>
                       <div
                         className="menuTitle"
-                        spy={true}
-                        smooth={true}
                         onClick={() => {
                           window.location.replace(`#${Object.keys(curr)[0]}`);
                         }}

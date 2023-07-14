@@ -1,0 +1,297 @@
+.cartContainer {
+  display: grid;
+  grid-template-columns: 60% 35%;
+  gap: 5%;
+}
+.checkoutInfoContainer {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.addressContainer {
+  width: 100%;
+  box-shadow: 0 5px 30px rgb(55 62 125 / 8%);
+  background-color: #fff;
+  border-radius: 10px;
+}
+.addressContTitle {
+  font-size: 1.1rem;
+  font-weight: 600;
+  color: var(--color-black);
+}
+.addressContSubTitle {
+  font-size: 0.85rem;
+  color: var(--color-muted);
+  font-weight: 500;
+}
+.addressBox {
+  display: grid;
+  grid-template-columns: 48% 48%;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+@media screen and (max-width: 480px) {
+  .addressBox {
+    grid-template-columns: auto;
+    gap: 20px;
+  }
+}
+.address {
+  box-shadow: 0 5px 12px rgb(55 62 125 / 8%);
+  background-color: #fff;
+  border-radius: 10px;
+  border: 1px solid rgba(0, 0, 0, 0.125);
+  padding: 20px 10px;
+  padding-left: 20px;
+  width: 100%;
+  height: max-content;
+}
+@media screen and (max-width: 480px) {
+  .address {
+    padding-left: 10px;
+  }
+}
+.addressTitleWrapper {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+}
+.addressTitleWrapper i {
+  color: var(--color-orange);
+  font-size: 1rem;
+}
+.addressTitle,
+.addressAddTitle {
+  font-size: 1.02rem;
+  color: var(--color-main);
+  font-weight: 600;
+}
+.addressAddTitle {
+  color: var(--color-secondary);
+}
+.addressContent {
+  font-size: 0.8rem;
+  color: var(--color-muted);
+  line-height: 1.1rem;
+  min-height: 64px;
+  overflow: hidden;
+  padding-left: 20px;
+}
+.addressDeliveryTime {
+  font-size: 1rem;
+  font-weight: 600;
+  padding-left: 20px;
+}
+.addressActionBtn,
+.addressAddActionBtn {
+  box-shadow: 0 3px 8px #e9e9eb;
+  border-radius: 6px;
+  font-size: 0.9rem;
+  font-weight: 600;
+  line-height: 36px;
+  position: relative;
+  text-align: center;
+  color: white;
+  background-color: var(--color-veg);
+  border: 1px solid var(--color-veg);
+  width: max-content;
+  padding: 0px 20px;
+  cursor: pointer;
+  margin-left: 20px;
+}
+.addressAddActionBtn {
+  background-color: #fff;
+  color: var(--color-veg);
+}
+.paymentContainer {
+  width: 100%;
+  box-shadow: 0 5px 30px rgb(55 62 125 / 8%);
+  background-color: #fff;
+  border-radius: 10px;
+}
+.checkoutItemContainer {
+  width: 100%;
+  box-shadow: 0 5px 30px rgb(55 62 125 / 8%);
+  background-color: #fff;
+  border-radius: 10px;
+  height: max-content;
+}
+.checkoutHotelBox {
+  display: flex;
+  gap: 12px;
+  padding: 0px 15px 15px 15px;
+  /* box-shadow: 0 5px 5px rgb(55 62 125 / 8%); */
+}
+.checkoutHotelImg img {
+  width: 50px;
+  height: 50px;
+}
+.checkoutHotelName {
+  font-size: 1rem;
+  color: var(--color-black);
+  font-weight: 500;
+}
+.checkoutCartBox {
+  display: flex;
+  flex-direction: column;
+  max-height: 270px;
+  overflow-y: scroll;
+  scroll-behavior: smooth;
+  padding: 15px;
+  gap: 15px;
+}
+.checkoutCartItemBox {
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+  align-items: center;
+}
+.checkoutCartItem {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+.checkoutCartItem .itemName {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+.checkoutCartItem .itemName span {
+  font-size: 13px;
+  color: var(--color-black);
+}
+.checkoutCartItem .itemQuantityBtn {
+  background-color: #ffe4e1;
+  border: 1px solid var(--color-red);
+  font-size: 13px;
+  font-weight: 500;
+  border-radius: 6px;
+}
+.checkoutCartItem .itemQuantityBtn i {
+  color: var(--color-red);
+  cursor: pointer;
+}
+.checkoutCartItem .itemPrice {
+  font-size: 13px;
+  color: var(--color-muted);
+}
+.cookingInstructionBox {
+  height: 51px;
+}
+.cookingInstruction {
+  width: 100%;
+  font-size: 13px;
+  color: var(--color-black);
+  outline: none;
+  background: #f9f9f9;
+  outline: none;
+  border: none;
+  resize: none;
+  height: 100%;
+  padding: 16px;
+  border-radius: 6px;
+}
+.moreItemContainer {
+  padding-bottom: 7px;
+  border-bottom: 1px solid var(--border-muted);
+}
+.moreItemContTitle {
+  font-size: 0.9rem;
+  font-weight: 600;
+}
+.moreItemBox {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  overflow-x: scroll;
+  scrollbar-width: none;
+}
+.moreItem {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  padding: 10px;
+  border: 1px solid rgba(0, 0, 0, 0.125);
+  border-radius: 6px;
+}
+.moreItemImgBox img {
+  width: 50px;
+  height: 50px;
+}
+.moreItemDishContent {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+.moreItemTitle {
+  font-size: 0.8rem;
+  font-weight: 600;
+}
+.moreItemPrice {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.moreItemPrice div {
+  font-size: 0.8rem;
+  font-weight: 500;
+  color: var(--color-muted);
+}
+.moreItemAddBtn {
+  color: var(--color-veg);
+  cursor: pointer;
+}
+.applyCouponBox {
+  padding: 10px;
+  box-shadow: 0 4px 8px 2px rgba(0, 0, 0, 0.12);
+  border: 1px solid rgba(0, 0, 0, 0.12);
+  border-radius: 10px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+}
+.applyCouponBox img {
+  width: 18px;
+  margin-right: 14px;
+}
+.appplyCouponBtn {
+  color: var(--color-main);
+  font-size: 1rem;
+  font-weight: 600;
+}
+.billingDetailsBox {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.billingDetailsTitle {
+  font-size: 0.9rem;
+  color: var(--color-black);
+  font-weight: 500;
+}
+.billingBox {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  padding-bottom: 10px;
+  border-bottom: 1px solid var(--color-main);
+}
+.billingItem {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  color: var(--color-muted);
+  font-size: 0.78rem;
+}
+.billBox {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: var(--color-black);
+  padding: 10px 15px;
+  font-weight: 0.95rem;
+  font-weight: 600;
+}

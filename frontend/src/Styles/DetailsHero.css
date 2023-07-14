@@ -44,7 +44,7 @@
   gap: 20px;
 }
 .deliveryInfo .info i {
-  color: #fb9300;
+  color: var(--color-orange);
   margin-right: 6px;
   font-size: 13px;
 }
@@ -56,7 +56,7 @@
 .right {
   display: flex;
   flex-direction: column;
-  align-items: end;
+  align-items: flex-end;
   padding-right: 20px;
 }
 .ratingInfo {
@@ -88,8 +88,8 @@
   color: var(--color-secondary);
 }
 .collapseButton {
-  font-size: 28px;
-  color: rgba(0, 0, 0, 0.64);
+  font-size: 22px;
+  color: rgba(0, 0, 0, 0.827);
   cursor: pointer;
 }
 .collapse {
@@ -125,7 +125,7 @@
   width: 100%;
   height: 100px;
   object-fit: cover;
-  border-radius: 6px;
+  border-radius: 10px;
 }
 .addBtn,
 .quantityBtn {
@@ -133,14 +133,17 @@
   top: -18px;
   z-index: 1;
   box-shadow: 0 3px 8px #e9e9eb;
-  border-radius: 4px;
-  color: white;
+  border-radius: 6px;
   font-size: 0.9rem;
   font-weight: 600;
   line-height: 36px;
   position: relative;
   text-align: center;
+  color: white;
   background-color: var(--color-red);
+  /* color: var(--color-red);
+  background-color: #ffe4e1;
+  border: 1px solid var(--color-red); */
   outline: none;
   width: 96px;
   height: 36px;
@@ -156,11 +159,12 @@
 .dishContent {
   display: flex;
   flex-direction: column;
-  gap: 4px;
+  gap: 7px;
 }
 .dishTitle {
   color: var(--color-main);
   font-weight: 600;
+  margin-bottom: 5px;
 }
 .dishSub-title {
   color: rgba(40, 44, 63, 0.45);
@@ -175,9 +179,16 @@
   color: rgba(0, 0, 0, 0.797);
 }
 .dishRating {
-  background-color: var(--color-rating);
+  background-color: #ffefd5aa;
   border-color: var(--color-rating);
-  margin: 8px 0px;
+  margin: 0px;
+  color: var(--color-rating);
+  padding: 5px 10px;
+  font-weight: 600;
+}
+.dishRating i {
+  /* color: var(--color-rating); */
+  margin-left: 5px;
 }
 .stickyContainerWrapper {
   position: fixed;

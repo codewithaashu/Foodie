@@ -16,6 +16,8 @@ html {
   --color-footer: #111835;
   --bgColor-muted: #f3f5f7;
   --border-muted: #eceff4;
+  --color-orange: rgb(251, 147, 0);
+  --color-black: #282c3f;
 }
 .ratingButton {
   background-color: var(--color-veg);
@@ -28,4 +30,9 @@ html {
   text-decoration: none;
   color: inherit;
   cursor: pointer;
+}
+.textOverflow {
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
 }

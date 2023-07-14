@@ -167,7 +167,8 @@
               "itemDescription": "Serves 1 | It's our signature. Spiced Paneer, Crunchy Onions & Green Capsicum, spicy Red Paprika with delicious Tandoori Sauce and 100% mozzarella cheese!",
               "itemRating": "3.9",
               "price": "300",
-              "id":1
+              "id":1,
+              "type":"veg"
             },
             {
               "itemImg": "https://img.freepik.com/free-photo/freshly-baked-pizza-rustic-wooden-table-generated-by-ai_24640-80691.jpg?t=st=1689066157~exp=1689069757~hmac=7c3f379a826b894fad6b5a4be324c19ccc79162ce0c25e7c90d3a3f8566179d1&w=1380",
@@ -175,7 +176,8 @@
               "itemDescription": "Serves 1 | It's our signature. Spiced Paneer, Crunchy Onions & Green Capsicum, spicy Red Paprika with delicious Tandoori Sauce and 100% mozzarella cheese!",
               "itemRating": "3.9",
               "price": "200",
-              "id":2
+              "id":2,
+              "type":"veg"
             },
             {
               "itemImg": "https://img.freepik.com/free-photo/freshly-baked-pizza-rustic-wooden-table-generated-by-ai_24640-80691.jpg?t=st=1689066157~exp=1689069757~hmac=7c3f379a826b894fad6b5a4be324c19ccc79162ce0c25e7c90d3a3f8566179d1&w=1380",
@@ -183,7 +185,8 @@
               "itemDescription": "Serves 1 | It's our signature. Spiced Paneer, Crunchy Onions & Green Capsicum, spicy Red Paprika with delicious Tandoori Sauce and 100% mozzarella cheese!",
               "itemRating": "3.9",
               "price": "100",
-              "id":3
+              "id":3,
+              "type":"non-veg"
             },
             {
               "itemImg": "https://img.freepik.com/free-photo/freshly-baked-pizza-rustic-wooden-table-generated-by-ai_24640-80691.jpg?t=st=1689066157~exp=1689069757~hmac=7c3f379a826b894fad6b5a4be324c19ccc79162ce0c25e7c90d3a3f8566179d1&w=1380",
@@ -191,7 +194,8 @@
               "itemDescription": "Serves 1 | It's our signature. Spiced Paneer, Crunchy Onions & Green Capsicum, spicy Red Paprika with delicious Tandoori Sauce and 100% mozzarella cheese!",
               "itemRating": "3.9",
               "price": "319",
-              "id":4
+              "id":4,
+              "type":"veg"
             },
             {
               "itemImg": "https://img.freepik.com/free-photo/freshly-baked-pizza-rustic-wooden-table-generated-by-ai_24640-80691.jpg?t=st=1689066157~exp=1689069757~hmac=7c3f379a826b894fad6b5a4be324c19ccc79162ce0c25e7c90d3a3f8566179d1&w=1380",
@@ -199,7 +203,8 @@
               "itemDescription": "Serves 1 | It's our signature. Spiced Paneer, Crunchy Onions & Green Capsicum, spicy Red Paprika with delicious Tandoori Sauce and 100% mozzarella cheese!",
               "itemRating": "3.9",
               "price": "319",
-              "id":5
+              "id":5,
+              "type":"non-veg"
             },
             {
               "itemImg": "https://img.freepik.com/free-photo/freshly-baked-pizza-rustic-wooden-table-generated-by-ai_24640-80691.jpg?t=st=1689066157~exp=1689069757~hmac=7c3f379a826b894fad6b5a4be324c19ccc79162ce0c25e7c90d3a3f8566179d1&w=1380",
@@ -207,7 +212,8 @@
               "itemDescription": "Serves 1 | It's our signature. Spiced Paneer, Crunchy Onions & Green Capsicum, spicy Red Paprika with delicious Tandoori Sauce and 100% mozzarella cheese!",
               "itemRating": "3.9",
               "price": "319",
-              "id":6
+              "id":6,
+              "type":"veg"
             }
           ]
         },
@@ -219,7 +225,8 @@
               "itemDescription": "Serves 1 | It's our signature. Spiced Paneer, Crunchy Onions & Green Capsicum, spicy Red Paprika with delicious Tandoori Sauce and 100% mozzarella cheese!",
               "itemRating": "3.9",
               "price": "319",
-              "id":7
+              "id":7,
+              "type":"veg"
             },
             {
               "itemImg": "https://img.freepik.com/free-photo/freshly-baked-pizza-rustic-wooden-table-generated-by-ai_24640-80691.jpg?t=st=1689066157~exp=1689069757~hmac=7c3f379a826b894fad6b5a4be324c19ccc79162ce0c25e7c90d3a3f8566179d1&w=1380",
@@ -227,7 +234,8 @@
               "itemDescription": "Serves 1 | It's our signature. Spiced Paneer, Crunchy Onions & Green Capsicum, spicy Red Paprika with delicious Tandoori Sauce and 100% mozzarella cheese!",
               "itemRating": "3.9",
               "price": "319",
-              "id":8
+              "id":8,
+              "type":"non-veg"
             },
             {
               "itemImg": "https://img.freepik.com/free-photo/freshly-baked-pizza-rustic-wooden-table-generated-by-ai_24640-80691.jpg?t=st=1689066157~exp=1689069757~hmac=7c3f379a826b894fad6b5a4be324c19ccc79162ce0c25e7c90d3a3f8566179d1&w=1380",
@@ -235,7 +243,8 @@
               "itemDescription": "Serves 1 | It's our signature. Spiced Paneer, Crunchy Onions & Green Capsicum, spicy Red Paprika with delicious Tandoori Sauce and 100% mozzarella cheese!",
               "itemRating": "3.9",
               "price": "319",
-              "id":9
+              "id":9,
+              "type":"non-veg"
             },
             {
               "itemImg": "https://img.freepik.com/free-photo/freshly-baked-pizza-rustic-wooden-table-generated-by-ai_24640-80691.jpg?t=st=1689066157~exp=1689069757~hmac=7c3f379a826b894fad6b5a4be324c19ccc79162ce0c25e7c90d3a3f8566179d1&w=1380",
@@ -243,7 +252,8 @@
               "itemDescription": "Serves 1 | It's our signature. Spiced Paneer, Crunchy Onions & Green Capsicum, spicy Red Paprika with delicious Tandoori Sauce and 100% mozzarella cheese!",
               "itemRating": "3.9",
               "price": "319",
-              "id":10
+              "id":10,
+              "type":"veg"
             },
             {
               "itemImg": "https://img.freepik.com/free-photo/freshly-baked-pizza-rustic-wooden-table-generated-by-ai_24640-80691.jpg?t=st=1689066157~exp=1689069757~hmac=7c3f379a826b894fad6b5a4be324c19ccc79162ce0c25e7c90d3a3f8566179d1&w=1380",
@@ -251,7 +261,8 @@
               "itemDescription": "Serves 1 | It's our signature. Spiced Paneer, Crunchy Onions & Green Capsicum, spicy Red Paprika with delicious Tandoori Sauce and 100% mozzarella cheese!",
               "itemRating": "3.9",
               "price": "319",
-              "id":11
+              "id":11,
+              "type":"veg"
             },
             {
               "itemImg": "https://img.freepik.com/free-photo/freshly-baked-pizza-rustic-wooden-table-generated-by-ai_24640-80691.jpg?t=st=1689066157~exp=1689069757~hmac=7c3f379a826b894fad6b5a4be324c19ccc79162ce0c25e7c90d3a3f8566179d1&w=1380",
@@ -259,7 +270,8 @@
               "itemDescription": "Serves 1 | It's our signature. Spiced Paneer, Crunchy Onions & Green Capsicum, spicy Red Paprika with delicious Tandoori Sauce and 100% mozzarella cheese!",
               "itemRating": "3.9",
               "price": "319",
-              "id":12
+              "id":12,
+              "type":"veg"
             }
           ]
         }
