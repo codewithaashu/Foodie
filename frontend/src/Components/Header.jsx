@@ -21,13 +21,13 @@ const Header = () => {
           </button>
           <div className="collapse navbar-collapse" id="navbarNavAltMarkup">
             <div className="navbar-nav ms-auto">
-              <a className="nav-link fs-6" aria-current="page" href="#">
+              <a className="nav-link fs-6" aria-current="page" href="#download">
                 Download App
               </a>
-              <a className="nav-link fs-6" href="#">
+              <a className="nav-link fs-6" href="#partner">
                 Become a Partner
               </a>
-              <a className="nav-link fs-6" href="#">
+              <a className="nav-link fs-6" href="#help">
                 Help
               </a>
               <a className="nav-link fs-6" href="#">

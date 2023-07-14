@@ -1,15 +1,16 @@
 import React from "react";
 import Header from "../Components/Header";
-import HomeHero from "../Components/HomeHero";
+import WelcomeHero from "../Components/WelcomeHero";
 import Footer from "../Components/Footer";
-const Home = () => {
+
+const Welcome = () => {
   return (
     <>
       <Header />
-      <HomeHero />
+      <WelcomeHero />
       <Footer />
     </>
   );
 };
 
-export default Home;
+export default Welcome;

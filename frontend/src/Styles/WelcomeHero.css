@@ -1,0 +1,197 @@
+.welcomeHeroCont {
+  display: grid;
+  grid-template-columns: 60% 40%;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+}
+.leftHeroContainer {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  width: 80%;
+}
+.heroContTitle {
+  font-size: 3.5rem;
+  line-height: normal;
+  font-weight: 600;
+  text-transform: capitalize;
+}
+.searchLocationCont {
+  border: 1px solid var(--color-red);
+  box-shadow: 0 5px 12px rgb(55 62 125 / 8%);
+  display: grid;
+  padding: 0px;
+  grid-template-columns: auto auto auto;
+}
+.searchLocationCont input {
+  border: none !important;
+  outline: none !important;
+  /* width: max-content; */
+  margin-right: 0px !important;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
+  padding: 15px 10px;
+  font-size: 1rem;
+  /* max-width: 100% !important; */
+  /* min-width: 50%; */
+}
+.locateMeBtn {
+  color: #535665;
+  background: inherit;
+  border: none;
+  outline: none;
+  margin: 10px;
+  padding: 5px 10px;
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  /* width: max-content; */
+}
+.locateMeBtn span {
+  width: max-content;
+}
+.locateMeBtn:hover {
+  background: #e9e9eb;
+}
+.findFoodBtn {
+  box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.12);
+  padding: 15px;
+  background-color: var(--color-red);
+  color: white;
+  font-size: 1rem;
+  font-weight: 600;
+  text-transform: capitalize;
+  cursor: pointer;
+}
+.rightHeroContainer {
+  width: 100%;
+}
+.rightHeroContainer img {
+  width: 80%;
+  aspect-ratio: 1;
+}
+.downloadAppBoxWrapper {
+  background-color: var(--color-blue-muted);
+  width: 100%;
+}
+.downloadAppBox {
+  padding: 20px;
+  display: grid;
+  grid-template-columns: 50% 50%;
+  gap: 20px;
+  justify-content: center;
+  align-items: center;
+}
+.leftDownloadAppBox {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  width: 85%;
+}
+.leftDownloadAppBoxTitle {
+  color: var(--color-main);
+  font-size: 1.8rem;
+  font-weight: 600;
+  text-transform: capitalize;
+}
+.leftDownloadAppBoxSubTitle {
+  color: var(--color-muted);
+  font-size: 0.9rem;
+  font-weight: 500;
+}
+.leftDownloadAppBoxActionImg {
+  display: flex;
+  gap: 15px;
+}
+.rightDownloadAppBox {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.rightDownloadAppBox img {
+  aspect-ratio: 1;
+  height: 360px;
+}
+.orderInfoContainer {
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.orderInfoTitle {
+  color: var(--color-main);
+  font-size: 2rem;
+  font-weight: 600;
+}
+.orderInfoSubTitle {
+  color: var(--color-muted);
+  font-size: 0.85rem;
+  font-weight: 500;
+}
+.orderInfoFlowChart {
+  display: grid;
+  grid-template-columns: auto auto auto auto auto;
+  justify-content: space-evenly;
+  width: 100%;
+  padding: 20px 0px;
+}
+.orderInfoFlowItem {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 15px;
+}
+.orderInfoFlowItem img {
+  width: 90px;
+  aspect-ratio: 1;
+}
+.orderInfoFlowItemTitle {
+  font-size: 0.9rem;
+  font-weight: 500;
+}
+.partnerBoxWrapper {
+  background-color: var(--color-blue-muted);
+}
+.partnerBox {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 20px;
+}
+.partner {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  align-items: center;
+}
+.partnerImg img {
+  height: 90px;
+  aspect-ratio: 1;
+}
+.partnerTitle {
+  font-size: 1.4rem;
+  font-weight: 600;
+  color: var(--color-main);
+}
+.partnerSubTitle {
+  font-size: 0.82rem;
+  font-weight: 500;
+  color: var(--color-muted);
+  width: 80%;
+}
+.partnerAction {
+  display: flex;
+  justify-content: center;
+}
+.partnerActionBtn {
+  padding: 10px 20px;
+  color: #fff;
+  background-color: var(--color-red);
+  border: none;
+  outline: none;
+  text-align: center;
+  font-size: 1rem;
+}

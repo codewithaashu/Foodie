@@ -7,7 +7,7 @@
   top: 0;
 }
 .brandStyle {
-  color: var(--color-red);
+  color: var(--color-red) !important;
   font-weight: bold;
   font-size: 38px;
   text-shadow: red 1px 0 2px;
@@ -16,5 +16,6 @@
   color: var(--color-red);
 }
 .nav-link {
-  font-size: 14px;
+  font-size: 1rem !important;
+  color: var(--color-black) !important;
 }

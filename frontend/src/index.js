@@ -6,10 +6,15 @@ import reportWebVitals from "./reportWebVitals";
 import { RouterProvider, createBrowserRouter } from "react-router-dom";
 import Details from "./Pages/Details";
 import Cart from "./Pages/Cart";
+import Welcome from "./Pages/Welcome";
 const root = ReactDOM.createRoot(document.getElementById("root"));
 const router = createBrowserRouter([
   {
     path: "/",
+    element: <Welcome />,
+  },
+  {
+    path: "/home",
     element: <App />,
   },
   {
