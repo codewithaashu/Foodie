@@ -7,6 +7,7 @@ import { RouterProvider, createBrowserRouter } from "react-router-dom";
 import Details from "./Pages/Details";
 import Cart from "./Pages/Cart";
 import Welcome from "./Pages/Welcome";
+import Profile from "./Pages/Profile";
 const root = ReactDOM.createRoot(document.getElementById("root"));
 const router = createBrowserRouter([
   {
@@ -24,6 +25,10 @@ const router = createBrowserRouter([
   {
     path: "/cart",
     element: <Cart />,
+  },
+  {
+    path: "/profile",
+    element: <Profile />,
   },
 ]);
 root.render(

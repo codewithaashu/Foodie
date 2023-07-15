@@ -1,0 +1,246 @@
+.profileMainContainer {
+  display: grid;
+  grid-template-columns: max-content auto;
+  gap: 30px;
+}
+.profileContainer {
+  box-shadow: 0 5px 12px rgb(55 62 125 / 8%);
+  background-color: #fff;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: 1px solid #e8e8e8;
+  width: max-content;
+}
+.profileImageBox {
+  width: 150px;
+  height: 150px;
+  border-radius: 100%;
+  margin-bottom: 20px;
+}
+.profileImageBox img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+  border-radius: 100%;
+}
+.profileTitle {
+  font-size: 28px;
+  font-weight: 600;
+  color: var(--color-black);
+}
+.profileMobile {
+  font-size: 0.85rem;
+  font-weight: 500;
+  color: var(--color-muted);
+}
+.profileSection {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  justify-content: center;
+  align-items: center;
+}
+.profileSection .title {
+  font-size: 17px;
+  color: #282c3f;
+}
+.profileSection .value {
+  color: var(--color-muted);
+  font-size: 15px;
+}
+.profileActionBtn {
+  cursor: pointer;
+  text-transform: uppercase;
+  padding: 10px 15px;
+  text-align: center;
+  font-weight: 600;
+  background-color: var(--color-red);
+  margin: 20px 0px;
+  color: white;
+  font-size: 1rem;
+  border-radius: 4px;
+}
+.mainContainer {
+  box-shadow: 0 5px 12px rgb(55 62 125 / 8%);
+  background-color: #fff;
+  border-radius: 10px;
+  border: 1px solid rgba(0, 0, 0, 0.125);
+  width: 100%;
+}
+.myProfileHeadingBox {
+  gap: 10px;
+  border-bottom: 1px solid #e8e8e8;
+  box-shadow: 0 4px 4px rgba(221, 221, 221, 0.25);
+}
+.myProfileHeadingTitle {
+  font-size: 1rem;
+  font-weight: 600;
+  color: var(--color-black);
+  font-size: 28px;
+  padding: 24px;
+  line-height: 36px;
+  font-weight: 600;
+}
+.myProfileNavigationBox {
+  display: grid;
+  grid-template-columns: max-content max-content max-content max-content;
+  gap: 10px;
+  overflow-x: scroll;
+  scroll-behavior: smooth;
+  scrollbar-width: none;
+}
+.profileHeadingNavigationBtn {
+  padding: 12px 16px;
+  font-weight: 600;
+  display: flex;
+  align-items: center;
+  gap: 0.6666667em;
+  font-size: 13px;
+  line-height: 1.333333em;
+  cursor: pointer;
+  text-align: center;
+}
+.pnactive {
+  border: 0.5px solid #e8e8e8;
+  border-bottom: 2.5px solid var(--color-red);
+}
+
+.myProfileSectionContainer {
+  padding: 15px 5px;
+}
+.orderContainer {
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+  padding: 15px;
+  width: 100%;
+}
+.orderBox {
+  border: 1px solid #d4d5d9;
+  padding: 15px 20px;
+  width: 100%;
+  border-radius: 10px;
+}
+.orderHotelDetailsWrapperBox {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.orderHotelDetailsBox {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  align-items: center;
+}
+.orderHotelImgBox {
+  height: 70px;
+  aspect-ratio: 1;
+}
+.orderHotelImgBox img {
+  width: 100%;
+  height: 100%;
+}
+.orderHotelName {
+  display: flex;
+  flex-direction: column;
+  gap: 0px;
+}
+.orderHotelName .hotelName {
+  font-size: 16px;
+  font-weight: 500;
+  color: var(--color-black);
+}
+.orderHotelName .hotelLocation {
+  font-size: 12px;
+  font-weight: 400;
+  color: var(--color-muted);
+}
+.orderHotelName .openingTime {
+  font-size: 13px;
+  color: var(--color-orange);
+  font-weight: 500;
+}
+.orderNavigationBox {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.reorderBtn {
+  border-radius: 6px;
+  font-size: 14px;
+  font-weight: 500;
+  text-align: center;
+  color: var(--color-red);
+  background-color: #ffe4e172;
+  border: 1px solid var(--color-red);
+  outline: none;
+  padding: 5px 10px;
+  cursor: pointer;
+}
+.viewDetailsBtn {
+  color: var(--color-orange);
+  color: #fc8019;
+  font-size: 14px;
+  font-weight: 500;
+  cursor: pointer;
+}
+.orderMenuDetailsBoxWrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  border-bottom: 1px dashed var(--color-muted);
+  padding: 10px;
+}
+.orderMenuDetailsBox {
+  display: flex;
+  flex-direction: column;
+  gap: 0px;
+}
+.orderMenu {
+  display: flex;
+  flex-direction: row;
+  gap: 5px;
+  align-items: center;
+}
+.orderMenu img {
+  width: 14px;
+  height: 14px;
+}
+.orderQuantity {
+  font-size: 14px;
+  color: var(--color-black);
+  display: flex;
+  align-items: center;
+}
+.orderQuantity i {
+  font-size: 12px;
+  padding: 0px 2px;
+}
+.orderMenuName {
+  font-size: 14px;
+  color: var(--color-black);
+}
+.orderMenuSubTitle {
+  font-size: 12px;
+  color: var(--color-muted);
+  padding-left: 20px;
+}
+.orderInfoDetailsBox {
+  display: flex;
+  justify-content: space-between;
+  font-size: 13px;
+  padding: 10px 10px 5px 10px;
+}
+.orderTimeInfo {
+  color: var(--color-muted);
+}
+.orderPriceInfo {
+  color: var(--color-black);
+  font-weight: 600;
+}
