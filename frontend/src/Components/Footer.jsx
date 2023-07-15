@@ -68,16 +68,16 @@ const Footer = () => {
             <div className="followTitle">Follow Us On</div>
             <div className="followBox">
               <a href="#" className="footerNavItem anchorText" target="_blank">
-                <i class="fa-brands fa-facebook"></i>
+                <i className="fa-brands fa-facebook"></i>
               </a>
               <a href="#" className="footerNavItem anchorText" target="_blank">
-                <i class="fa-brands fa-instagram"></i>
+                <i className="fa-brands fa-instagram"></i>
               </a>
               <a href="#" className="footerNavItem anchorText" target="_blank">
-                <i class="fa-brands fa-linkedin"></i>
+                <i className="fa-brands fa-linkedin"></i>
               </a>
               <a href="#" className="footerNavItem anchorText" target="_blank">
-                <i class="fa-brands fa-twitter"></i>
+                <i className="fa-brands fa-twitter"></i>
               </a>
             </div>
           </div>

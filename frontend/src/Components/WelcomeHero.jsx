@@ -17,7 +17,7 @@ const WelcomeHero = () => {
                 aria-label="Search"
               />
               <button className="locateMeBtn">
-                <i class="fa fa-solid fa-location-crosshairs"></i>
+                <i className="fa fa-solid fa-location-crosshairs"></i>
                 <span>Locate Me</span>
               </button>
               <div className="findFoodBtn">Find Food</div>

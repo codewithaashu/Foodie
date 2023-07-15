@@ -1,0 +1,98 @@
+.loginWrapperContainer {
+  position: fixed;
+  z-index: 100;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(28, 28, 28, 0.95);
+  top: 0px;
+  bottom: 0px;
+  display: flex;
+  align-items: center;
+  /* opacity: 0.95; */
+}
+.loginContainer {
+  display: flex;
+  justify-content: center;
+}
+.loginBox {
+  display: flex;
+  flex-direction: column;
+  box-shadow: 0 5px 12px rgb(55 62 125 / 8%);
+  background-color: #fff;
+  border-radius: 10px;
+  border: 1px solid rgba(0, 0, 0, 0.125);
+  width: 40%;
+  min-width: max-content;
+}
+.loginTitleBox {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.loginTitle {
+  font-size: 2rem;
+  margin: 1rem 0px;
+  font-weight: 500;
+  color: var(--color-main);
+}
+.closeButton {
+  font-size: 1.5rem !important;
+  cursor: pointer;
+  border-radius: 50%;
+}
+.loginFormBox {
+  border-bottom: 1px solid rgb(207, 207, 207);
+}
+.mobileInputBox {
+  border: 1px solid rgb(207, 207, 207);
+  padding: 0.8rem;
+  display: flex;
+  align-items: center;
+  border-radius: 10px;
+  width: 100%;
+}
+.mobileRightBox {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 8px;
+  border-right: 1px solid rgb(207, 207, 207);
+  padding-right: 5px;
+}
+.mobileRightBox img {
+  height: 1.5rem;
+  aspect-ratio: 1;
+}
+.mobileRightBox div {
+  font-size: 1.2rem;
+  color: var(--color-muted);
+}
+.mobileInputBox input {
+  border: none;
+  padding: 0px 10px;
+  outline: none;
+  appearance: textField;
+  font-size: 1.1rem;
+}
+.mobileInputBox input:focus {
+  border: none;
+}
+.loginFormBox button {
+  background-color: var(--color-red) !important;
+  width: 100%;
+  border-color: var(--color-red) !important;
+}
+.navigationBox {
+  display: flex;
+  gap: 5px;
+  align-items: center;
+}
+.navigationTitle {
+  font-size: 1rem;
+  font-weight: 500;
+}
+.navigationLink {
+  color: var(--color-red) !important;
+  font-size: 0.85rem;
+  font-weight: 600;
+}

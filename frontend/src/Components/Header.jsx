@@ -1,6 +1,8 @@
-import React from "react";
+import React, { useState } from "react";
 import "../Styles/Header.css";
+import Login from "./Login";
 const Header = () => {
+  const [loginModal, setLoginModal] = useState(false);
   return (
     <>
       <nav className="navbar navbar-expand-lg">
@@ -30,13 +32,16 @@ const Header = () => {
               <a className="nav-link fs-6" href="#help">
                 Help
               </a>
-              <a className="nav-link fs-6" href="#">
+              <a className="nav-link fs-6" onClick={() => setLoginModal(true)}>
                 Login
               </a>
             </div>
           </div>
         </div>
       </nav>
+      {loginModal && (
+        <Login loginModal={loginModal} setLoginModal={setLoginModal} />
+      )}
     </>
   );
 };
