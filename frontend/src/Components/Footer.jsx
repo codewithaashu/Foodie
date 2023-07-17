@@ -1,5 +1,6 @@
 import React from "react";
 import "../Styles/Footer.css";
+import { Link } from "react-router-dom";
 const Footer = () => {
   return (
     <>
@@ -82,7 +83,9 @@ const Footer = () => {
             </div>
           </div>
         </div>
-        <div className="copyright pt-2">Copyright © 2023 foodie.com</div>
+        <Link to="/" className="copyright pt-2 anchorText">
+          Copyright © 2023 foodie.com
+        </Link>
       </div>
     </>
   );

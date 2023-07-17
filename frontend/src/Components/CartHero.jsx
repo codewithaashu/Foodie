@@ -1,8 +1,19 @@
-import React from "react";
+import React, { useState } from "react";
 import "../Styles/CartHero.css";
-import { useLocation } from "react-router-dom";
+import { Link, useLocation } from "react-router-dom";
 const CartHero = () => {
+  const [addressData, setAddressData] = useState({
+    pincode: "",
+    state: "",
+    city: "",
+    address: "",
+    locality: "",
+    addressType: "",
+  });
   const location = useLocation();
+  const handlerAddAddress = () => {
+    console.log(addressData);
+  };
   var hotelName, hotelBanner, cartDetails;
   var totalItemPrice;
   if (location?.state) {
@@ -18,7 +29,23 @@ const CartHero = () => {
   const totalDeliveryFees = distance * perKmDeliverFees;
   return (
     <>
-      {location.state !== null && (
+      {location.state === null ? (
+        <div className="emptyCartContainer">
+          <div className="emptyCart">
+            <img
+              src="https://res.cloudinary.com/ddzlhdlda/image/upload/e_bgremoval/v1689585073/empty-cart_vofunw.png"
+              alt=""
+            />
+            <div className="emptyCartTitle">Your Cart is Empty</div>
+            <div className="emptyCartSubTitle">
+              Looks like you haven't added anything to your cart yet
+            </div>
+            <Link to="/home" className="emptyCartActionBtn anchorText">
+              Add your favourite dish
+            </Link>
+          </div>
+        </div>
+      ) : (
         <div className="container cartContainer mt-5 mb-3">
           <div className="checkoutInfoContainer">
             <div className="addressContainer p-4">
@@ -45,7 +72,13 @@ const CartHero = () => {
                       className="far fa-map-marker-plus"
                       style={{ color: "red" }}
                     ></i>
-                    <div className="addressAddTitle">Add New Address</div>
+                    <div
+                      className="addressAddTitle"
+                      data-bs-toggle="modal"
+                      data-bs-target="#exampleModal"
+                    >
+                      Add New Address
+                    </div>
                   </div>
                   <div className="addressContent">
                     Bhopal, Madhya Pradesh , India
@@ -176,6 +209,205 @@ const CartHero = () => {
           </div>
         </div>
       )}
+      <div
+        className="modal fade"
+        id="exampleModal"
+        tabIndex="-1"
+        aria-labelledby="exampleModalLabel"
+        aria-hidden="true"
+      >
+        <div className="modal-dialog modal-dialog-centered modal-dialog-scrollable">
+          <div className="modal-content">
+            <div className="modal-header">
+              <h1 className="modal-title fs-5" id="exampleModalLabel">
+                Add Address
+              </h1>
+              <button
+                type="button"
+                className="btn-close"
+                data-bs-dismiss="modal"
+                aria-label="Close"
+              ></button>
+            </div>
+            <div className="modal-body editAddressModal">
+              <form className="row g-3">
+                <div className="col-md-2">
+                  <label htmlFor="inputZip" className="form-label">
+                    Pincode*
+                  </label>
+                  <input
+                    type="tel"
+                    className="form-control"
+                    id="inputZip"
+                    name="pincode"
+                    value={addressData.pincode}
+                    onChange={(e) =>
+                      setAddressData({
+                        ...addressData,
+                        pincode: e.target.value,
+                      })
+                    }
+                    maxLength="6"
+                    required={true}
+                  />
+                </div>
+                <div className="col-md-4">
+                  <label htmlFor="inputState" className="form-label">
+                    State
+                  </label>
+                  <input
+                    type="text"
+                    className="form-control"
+                    id="inputState"
+                    inputMode="text"
+                    value={addressData.state}
+                    required={true}
+                    onChange={(e) =>
+                      setAddressData({
+                        ...addressData,
+                        state: e.target.value,
+                      })
+                    }
+                  />
+                </div>
+                <div className="col-md-6">
+                  <label htmlFor="inputCity" className="form-label">
+                    City
+                  </label>
+                  <input
+                    type="text"
+                    className="form-control"
+                    id="inputCity"
+                    inputMode="text"
+                    value={addressData.city}
+                    required={true}
+                    onChange={(e) =>
+                      setAddressData({
+                        ...addressData,
+                        city: e.target.value,
+                      })
+                    }
+                  />
+                </div>
+                <div className="col-12">
+                  <label htmlFor="inputAddress" className="form-label">
+                    Address(House No,Building,Street,Area)*
+                  </label>
+                  <input
+                    type="text"
+                    className="form-control"
+                    id="inputAddress"
+                    inputMode="text"
+                    value={addressData.address}
+                    required={true}
+                    onChange={(e) =>
+                      setAddressData({
+                        ...addressData,
+                        address: e.target.value,
+                      })
+                    }
+                  />
+                </div>
+                <div className="col-12">
+                  <label htmlFor="inputAddress" className="form-label">
+                    Locality/Town
+                  </label>
+                  <input
+                    type="text"
+                    className="form-control"
+                    id="inputAddress"
+                    inputMode="text"
+                    value={addressData.locality}
+                    onChange={(e) =>
+                      setAddressData({
+                        ...addressData,
+                        locality: e.target.value,
+                      })
+                    }
+                  />
+                </div>
+                <div className="col-12">
+                  <label htmlFor="inputAddress" className="form-label">
+                    Type of Address*
+                  </label>
+                  <br />
+                  <div className="form-check form-check-inline">
+                    <input
+                      className="form-check-input"
+                      type="radio"
+                      name="addressType"
+                      id="addressType"
+                      value="Home"
+                      onChange={(e) =>
+                        setAddressData({
+                          ...addressData,
+                          addressType: e.target.value,
+                        })
+                      }
+                    />
+                    <label className="form-check-label" htmlFor="inlineRadio1">
+                      Home
+                    </label>
+                  </div>
+                  <div className="form-check form-check-inline">
+                    <input
+                      className="form-check-input"
+                      type="radio"
+                      name="addressType"
+                      id="addressType"
+                      value="Office"
+                      onChange={(e) =>
+                        setAddressData({
+                          ...addressData,
+                          addressType: e.target.value,
+                        })
+                      }
+                    />
+                    <label className="form-check-label" htmlFor="inlineRadio2">
+                      Office
+                    </label>
+                  </div>
+                  <div className="form-check form-check-inline">
+                    <input
+                      className="form-check-input"
+                      type="radio"
+                      name="addressType"
+                      id="addressType"
+                      value="Other"
+                      onChange={(e) =>
+                        setAddressData({
+                          ...addressData,
+                          addressType: e.target.value,
+                        })
+                      }
+                    />
+                    <label className="form-check-label" htmlFor="inlineRadio2">
+                      Other
+                    </label>
+                  </div>
+                </div>
+              </form>
+            </div>
+            <div className="modal-footer">
+              <button
+                type="button"
+                className="btn btn-secondary"
+                data-bs-dismiss="modal"
+              >
+                Close
+              </button>
+              <button
+                type="button"
+                className="btn btn-danger text-white"
+                onClick={handlerAddAddress}
+                data-bs-dismiss="modal"
+              >
+                Save
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
     </>
   );
 };

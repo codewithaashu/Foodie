@@ -6,7 +6,7 @@ import Footer from "../Components/Footer";
 const Welcome = () => {
   return (
     <>
-      <Header />
+      <Header isWelcome={true} />
       <WelcomeHero />
       <Footer />
     </>

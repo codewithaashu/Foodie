@@ -18,4 +18,16 @@
 .nav-link {
   font-size: 1rem !important;
   color: var(--color-black) !important;
+  margin-right: 25px;
+}
+.nav-link i {
+  padding: 0px 7px;
+}
+.nav-link:hover {
+  font-weight: 500;
+  color: var(--color-red) !important;
+}
+.nav-link:active {
+  font-weight: 500;
+  color: var(--color-red) !important;
 }

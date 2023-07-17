@@ -16,6 +16,7 @@ const Login = ({ setLoginModal }) => {
     if (isLogin) {
       if (formData.phone && formData.password) {
         navigate("/home");
+        localStorage.setItem("isLogin", true);
       } else {
         alert("Please fill all the details");
       }

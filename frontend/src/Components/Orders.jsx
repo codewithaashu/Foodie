@@ -37,7 +37,7 @@ const Orders = () => {
                 />
                 <span className="orderQuantity">
                   <span>2</span>
-                  <i class="fa-solid fa-xmark"></i>
+                  <i className="fa-solid fa-xmark"></i>
                 </span>
                 <span className="orderMenuName">Double Topping Pizza</span>
               </div>
@@ -55,7 +55,7 @@ const Orders = () => {
                 />
                 <span className="orderQuantity">
                   <span>2</span>
-                  <i class="fa-solid fa-xmark"></i>
+                  <i className="fa-solid fa-xmark"></i>
                 </span>
                 <span className="orderMenuName">Double Topping Pizza</span>
               </div>
@@ -73,7 +73,7 @@ const Orders = () => {
                 />
                 <span className="orderQuantity">
                   <span>2</span>
-                  <i class="fa-solid fa-xmark"></i>
+                  <i className="fa-solid fa-xmark"></i>
                 </span>
                 <span className="orderMenuName">Double Topping Pizza</span>
               </div>
