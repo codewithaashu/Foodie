@@ -6,7 +6,11 @@ const Header = () => {
   return (
     <nav className="navbar navbar-expand-lg bg-body-tertiary dashboardNavBar">
       <div className="container-fluid">
-        <Link className="navbar-brand brandStyle" to="/home">
+        <Link
+          className="navbar-brand brandStyle"
+          to="/home"
+          style={{ fontSize: "30px" }}
+        >
           Foodie
         </Link>
         <button
@@ -48,6 +52,7 @@ const Header = () => {
                   <label
                     className="form-check-label"
                     htmlFor="flexSwitchCheckDefault"
+                    style={{ fontSize: "0.85rem" }}
                   >
                     {active ? "ON" : "OFF"}
                   </label>
@@ -56,11 +61,11 @@ const Header = () => {
             </li>
           </ul>
           <input
-            className="form-control searchQuery"
+            className="form-control searchQuery dashboardHeaderInput"
             type="search"
             placeholder="Search Here"
             aria-label="Search"
-            style={{ width: "50%", borderRadius: "20px" }}
+            style={{ width: "40%", borderRadius: "20px" }}
           />
           <ul className="navbar-nav mb-2 mb-lg-0">
             <li className="nav-item">

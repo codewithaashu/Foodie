@@ -1,10 +1,12 @@
 .navbar-nav {
   align-items: center !important;
+  height: max-content;
 }
 .dashboardPageHeaderTitle {
   color: var(--color-main) !important;
-  font-size: 1.1rem !important;
+  font-size: 1rem !important;
   font-weight: 500;
+  padding: 0px !important;
 }
 .dashboardNavBar .nav-link:hover {
   font-weight: 400;
@@ -22,7 +24,8 @@
   color: #fff !important;
   border-radius: 20px;
   padding: 5px 15px !important;
-  font-size: 1rem !important;
+  font-size: 0.85rem !important;
+  align-items: center;
 }
 .activeOutletBox .form-check-input:checked {
   background-color: green !important;
@@ -34,6 +37,15 @@
 .form-check-input:focus {
   box-shadow: none !important;
 }
+.dashboardHeaderInput {
+  background: url("https://res.cloudinary.com/ddzlhdlda/image/upload/v1688885284/Foodie/search_p14ik5.svg")
+    no-repeat scroll 15px 7px !important;
+}
+.dashboardNavBar .form-control {
+  padding: 0.375rem 0.75rem;
+  padding-left: 45px;
+}
+
 .notification {
   display: flex;
   flex-direction: row;
@@ -48,7 +60,7 @@
   background-color: var(--color-red);
   color: #fff !important;
   border-radius: 20px;
-  font-size: 0.85rem;
+  font-size: 0.7rem;
   padding: 0.17rem 10px;
 }
 .adminPicBox {
@@ -59,7 +71,7 @@
   border-radius: 20px;
 }
 .adminPicBox img {
-  height: 1.5rem;
+  height: 1rem;
   border-radius: 50%;
 }
 .adminName {

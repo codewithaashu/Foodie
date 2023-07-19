@@ -1,0 +1,51 @@
+-------- How to affect other elements when one element is hovered --------
+.overviewBox:hover .overviewBoxTitle {
+  color: #fff;
+}
+
+-------- Nested Routes --------
+index.js
+  {
+    path: "/admin",
+    element: <Admin />,
+    children: [
+      {
+        path: "",
+        element: <Dashboard />,
+      },
+      {
+        path: "menu",
+        element: <Menu />,
+      },
+      {
+        path: "order",
+        element: <Orders />,
+      },
+      {
+        path: "review",
+        element: <Review />,
+      },
+      {
+        path: "profile",
+        element: <AdminProfile />,
+      },
+    ],
+  },
+
+file.jsx
+<Outlet />
+
+------------------- CSS technique for a horizontal line with words in the middle ---------------------
+h2 {
+   width: 100%; 
+   text-align: center; 
+   border-bottom: 1px solid #000; 
+   line-height: 0.1em;
+   margin: 10px 0 20px; 
+} 
+
+h2 span { 
+    background:#fff; 
+    padding:0 10px; 
+}
+<h2><span>THIS IS A TEST</span></h2>

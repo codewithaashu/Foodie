@@ -1,0 +1,296 @@
+.dashBoardContainer {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  justify-content: center;
+  width: 100%;
+}
+.dashboardOverviewContainer {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  width: 75%;
+}
+.overviewMainContainer {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.overviewTitleBox {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.overviewTitle {
+  width: 90%;
+  border-bottom: 1px solid var(--border-muted);
+  line-height: 0.1rem;
+  color: var(--color-muted);
+  font-weight: 400;
+  font-size: 14px !important;
+}
+.overviewTitle span {
+  background: #fff;
+  padding: 0 10px;
+}
+.overviewDropBox {
+  width: max-content;
+  margin: 0 10px;
+  border-color: var(--color-muted) !important;
+}
+.overviewDropBox:focus {
+  box-shadow: none;
+  border-color: var(--color-muted) !important;
+}
+.overviewContainer {
+  display: grid;
+  grid-template-columns: 30% 30% 30%;
+  gap: 25px;
+  padding: 10px 5px;
+}
+.overviewBox {
+  padding: 15px;
+  background-color: #fff;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  border-radius: 10px;
+  cursor: pointer;
+  color: var(--color-main);
+  border-radius: 1.2rem !important;
+  box-shadow: 0 4px 8px 2px rgba(0, 0, 0, 0.12);
+  border: 1px solid rgba(0, 0, 0, 0.12);
+}
+.overviewBox:hover {
+  background-color: var(--color-main);
+  color: #fff !important;
+}
+.overviewBox:hover .overviewBoxTitle {
+  color: #fff;
+}
+.overviewBoxValue {
+  font-size: 45px;
+  font-weight: 600;
+}
+.overviewBoxTitle {
+  font-size: 1rem;
+  color: var(--color-black);
+  font-weight: 500;
+}
+.overviewBreakDownContainer {
+  display: grid;
+  grid-template-columns: auto auto;
+  gap: 15px;
+}
+.ordersBreakdownBox {
+  border-radius: 1.2rem !important;
+  box-shadow: 0 4px 8px 2px rgba(0, 0, 0, 0.12);
+  border: 1px solid rgba(0, 0, 0, 0.12);
+  width: max-content;
+  height: max-content;
+}
+.popularDishesBox {
+  border-radius: 1.2rem !important;
+  box-shadow: 0 4px 8px 2px rgba(0, 0, 0, 0.12);
+  border: 1px solid rgba(0, 0, 0, 0.12);
+  width: max-content;
+  height: max-content;
+}
+.orderOverviewContainer {
+  width: 20%;
+  padding: 13px 10px;
+  border: 1px solid var(--border-muted);
+  display: flex;
+  flex-direction: column;
+  gap: 7px;
+  box-shadow: 0 4px 8px 2px rgba(0, 0, 0, 0.12);
+  height: 80vh;
+  overflow-y: scroll;
+  scroll-behavior: smooth;
+  scrollbar-width: none;
+  border-radius: 6px;
+}
+.orderOverviewTitle {
+  font-size: 1rem;
+  color: var(--color-black);
+}
+.orderOverViewSubTitle {
+  background-color: var(--border-muted);
+  font-size: 0.8rem;
+  color: var(--color-black);
+  padding: 5px;
+  display: none;
+}
+.orderDetailsPage {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.orderDetailsPage .fa-arrow-left {
+  color: var(--color-red);
+  cursor: pointer;
+}
+.ordersDashboardContainer {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  padding: 7px 2px;
+}
+.ordersDashboard {
+  border: 1px solid var(--color-muted);
+  padding: 2px 5px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 3px;
+  justify-content: space-between;
+  font-size: 0.85rem;
+  color: var(--color-black);
+  border-radius: 4px;
+  cursor: pointer;
+}
+.ordersDasboardIcon {
+  color: var(--color-orange);
+  border: 1px sold var(--color-orange);
+}
+.ordersDashboardInfoBox {
+  font-size: 12px;
+  display: flex;
+  flex-direction: column;
+  gap: 0px;
+}
+.ordersDashboardInfoTitle {
+  color: var(--color-black);
+}
+.ordersDashboardInfo {
+  color: var(--color-orange);
+  font-size: 10px;
+  text-align: center;
+}
+.ordersDashboardActionBtn {
+  color: #fff;
+  background-color: var(--color-orange);
+  padding: 3px 6px;
+  border-radius: 6px;
+  font-size: 12px;
+  cursor: pointer;
+}
+.ordersDashboardStatusInfoTitle {
+  font-size: 0.75rem;
+  font-weight: 500;
+  color: var(--color-black);
+}
+.ordersDashboardStatusInfo {
+  font-size: 0.7rem;
+  font-weight: 500;
+  color: var(--color-orange);
+}
+.undeliveredOrder .ordersDasboardIcon,
+.undeliveredOrder .ordersDashboardInfo,
+.undeliveredOrder .ordersDashboardStatusInfo,
+.undeliveredOrder {
+  color: #d13131;
+  border-color: #d13131;
+}
+.deliveredOrder .ordersDasboardIcon,
+.deliveredOrder .ordersDashboardInfo,
+.deliveredOrder .ordersDashboardStatusInfo,
+.deliveredOrder {
+  color: #6ead49;
+  border-color: #6ead49;
+}
+.orderDashboardDetailsContainer {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.orderDeliveryPersonDetailsBox {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding: 5px 0px;
+  border-bottom: 2px solid var(--border-muted);
+}
+.orderDeliverPersonTitle {
+  font-size: 0.82rem;
+  font-weight: 500;
+  color: var(--color-muted);
+}
+.orderDeliveryPersonDetails {
+  display: flex;
+  flex-direction: row;
+  gap: 5px;
+  align-items: center;
+}
+.orderDeliveryPersonDetails img {
+  height: 30px;
+  border-radius: 50%;
+}
+.deliveryPersonDetails {
+  display: flex;
+  flex-direction: column;
+  gap: 0px;
+}
+.deliveryPersonName {
+  font-size: 12px;
+  color: var(--color-orange);
+}
+.deliveryPersonEmployeeInfo {
+  font-size: 11px;
+  color: var(--color-black);
+  font-weight: 400;
+}
+.customerDetailsBox {
+  display: grid;
+  grid-template-columns: max-content max-content;
+  justify-content: space-between;
+  gap: 8px;
+}
+.customerDetail {
+  display: flex;
+  flex-direction: column;
+  gap: 0px;
+}
+.customerDetailTitle {
+  font-size: 12px;
+  font-weight: 500;
+  color: var(--color-black);
+}
+.customerDetailValue {
+  font-size: 11.4px;
+  font-weight: 400;
+  color: var(--color-orange);
+}
+.orderDeliveryMenuDetails {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  margin-bottom: 12px;
+  max-height: 150px;
+  overflow-y: scroll;
+  scroll-behavior: smooth;
+  scrollbar-width: none;
+}
+.orderDashboardInfoContainer {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+.orderDashboardDeliveryInfoBox {
+  display: flex;
+  flex-direction: column;
+  gap: 0px;
+}
+.orderDashboardDeliveryInfoTitle {
+  color: var(--color-muted);
+  font-size: 12px;
+  font-weight: 500;
+}
+.orderDashboardDeliveryInfoValue {
+  font-size: 12px;
+  color: var(--color-orange);
+  width: 95%;
+  line-height: normal;
+}
