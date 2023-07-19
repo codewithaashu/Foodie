@@ -1,0 +1,39 @@
+.sideNavBarContainer {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  gap: 15px;
+  width: max-content;
+  height: 100vh;
+  background-color: #fff;
+  border-right: 1px solid var(--border-muted);
+  box-shadow: -1px 2px 24px -11px grey;
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2);
+}
+.sideNavBar {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  align-items: center;
+  justify-content: center;
+  padding: 7px 10px;
+  cursor: pointer;
+  width: 100px;
+}
+.sideNavBarActive {
+  background-color: var(--color-blue-muted);
+  border-left: 3px solid var(--color-red);
+  border-radius: 6px;
+}
+.sideNavBarLogo {
+  border-radius: 50%;
+  padding: 10px 15px;
+  border: 1px solid var(--color-main);
+}
+.sideNavBarLogo i {
+  color: var(--color-main);
+}
+.sideNavBarTitle {
+  font-size: 0.9rem;
+  color: var(--color-main);
+}

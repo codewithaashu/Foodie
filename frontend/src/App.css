@@ -19,6 +19,7 @@ html {
   --color-blue-muted: #eff4f7;
   --color-orange: rgb(251, 147, 0);
   --color-black: #282c3f;
+  --color-main-dashboard: #151933;
 }
 .ratingButton {
   background-color: var(--color-veg);

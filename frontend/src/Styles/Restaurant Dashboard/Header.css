@@ -1,0 +1,71 @@
+.navbar-nav {
+  align-items: center !important;
+}
+.dashboardPageHeaderTitle {
+  color: var(--color-main) !important;
+  font-size: 1.1rem !important;
+  font-weight: 500;
+}
+.dashboardNavBar .nav-link:hover {
+  font-weight: 400;
+  color: inherit;
+}
+.dashboardPageHeaderTitle:hover {
+  font-weight: 500 !important;
+  color: var(--color-main) !important;
+}
+.activeOutletBox {
+  display: flex;
+  flex-direction: row;
+  gap: 8px;
+  background-color: var(--color-main-dashboard);
+  color: #fff !important;
+  border-radius: 20px;
+  padding: 5px 15px !important;
+  font-size: 1rem !important;
+}
+.activeOutletBox .form-check-input:checked {
+  background-color: green !important;
+  border-color: green !important;
+}
+.activeOutletBox:hover {
+  color: #fff !important;
+}
+.form-check-input:focus {
+  box-shadow: none !important;
+}
+.notification {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 0px;
+  cursor: pointer;
+}
+.notification:hover {
+  color: inherit !important;
+}
+.notificationQuantity {
+  background-color: var(--color-red);
+  color: #fff !important;
+  border-radius: 20px;
+  font-size: 0.85rem;
+  padding: 0.17rem 10px;
+}
+.adminPicBox {
+  background-color: var(--color-blue-muted);
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  border-radius: 20px;
+}
+.adminPicBox img {
+  height: 1.5rem;
+  border-radius: 50%;
+}
+.adminName {
+  font-size: 0.85rem;
+  color: var(--color-main-dashboard) !important;
+}
+.adminPicBox:hover {
+  color: var(--color-main-dashboard) !important;
+}

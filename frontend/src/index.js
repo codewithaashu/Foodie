@@ -8,6 +8,12 @@ import Details from "./Pages/Details";
 import Cart from "./Pages/Cart";
 import Welcome from "./Pages/Welcome";
 import Profile from "./Pages/Profile";
+import Dashboard from "./Pages/Restaurant Dashboard/Dashboard";
+import Menu from "./Pages/Restaurant Dashboard/Menu";
+import Orders from "./Pages/Restaurant Dashboard/Orders";
+import AdminProfile from "./Pages/Restaurant Dashboard/Profile";
+import Review from "./Pages/Restaurant Dashboard/Review";
+import Admin from "./Pages/Restaurant Dashboard/Admin";
 const root = ReactDOM.createRoot(document.getElementById("root"));
 const router = createBrowserRouter([
   {
@@ -29,6 +35,32 @@ const router = createBrowserRouter([
   {
     path: "/profile",
     element: <Profile />,
+  },
+  {
+    path: "/admin",
+    element: <Admin />,
+    children: [
+      {
+        path: "",
+        element: <Dashboard />,
+      },
+      {
+        path: "menu",
+        element: <Menu />,
+      },
+      {
+        path: "order",
+        element: <Orders />,
+      },
+      {
+        path: "review",
+        element: <Review />,
+      },
+      {
+        path: "profile",
+        element: <AdminProfile />,
+      },
+    ],
   },
 ]);
 root.render(
