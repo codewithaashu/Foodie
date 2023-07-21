@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import "../../Styles/Restaurant Dashboard/Menu.css";
 const Menu = () => {
-  const [active, setActive] = useState(false);
+  const [active, setActive] = useState(true);
   const [showOtherDiv, setShowOtherDiv] = useState(false);
   const [isEditModal, setEditModal] = useState(false);
   return (
@@ -43,7 +43,11 @@ const Menu = () => {
                         role="switch"
                         id="flexSwitchCheckDefault"
                         onClick={() => setActive(!active)}
+                        checked={active}
                       />
+                    </div>
+                    <div className="outOfStockTitle">
+                      {active ? "Available" : "Unavailable"}
                     </div>
                   </div>
                   <div className="menuActionBtn">
@@ -64,7 +68,11 @@ const Menu = () => {
                         role="switch"
                         id="flexSwitchCheckDefault"
                         onClick={() => setActive(!active)}
+                        checked={active}
                       />
+                    </div>
+                    <div className="outOfStockTitle">
+                      {active ? "Available" : "Unavailable"}
                     </div>
                   </div>
                   <div className="menuActionBtn">
@@ -90,7 +98,11 @@ const Menu = () => {
                         role="switch"
                         id="flexSwitchCheckDefault"
                         onClick={() => setActive(!active)}
+                        checked={active}
                       />
+                    </div>
+                    <div className="outOfStockTitle">
+                      {active ? "Available" : "Unavailable"}
                     </div>
                   </div>
                   <div className="menuActionBtn">
@@ -111,7 +123,11 @@ const Menu = () => {
                         role="switch"
                         id="flexSwitchCheckDefault"
                         onClick={() => setActive(!active)}
+                        checked={active}
                       />
+                    </div>
+                    <div className="outOfStockTitle">
+                      {active ? "Available" : "Unavailable"}
                     </div>
                   </div>
                   <div className="menuActionBtn">

@@ -108,6 +108,20 @@
   font-size: 13px;
   color: var(--color-muted);
 }
+.outOfStockAction {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+  align-items: center;
+}
+.outOfStockTitle {
+  font-size: 12px;
+  color: var(--color-muted);
+}
+.outOfStockAction .form-check {
+  min-height: max-content;
+  margin-bottom: 0px;
+}
 .outOfStockAction .form-check-input:checked {
   background-color: green !important;
   border-color: green !important;
