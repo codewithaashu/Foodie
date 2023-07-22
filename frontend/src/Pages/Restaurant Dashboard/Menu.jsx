@@ -11,7 +11,7 @@ const Menu = () => {
           <div className="menuActionBox">
             <div>
               <input
-                class="form-control searchItemBox"
+                className="form-control searchItemBox"
                 type="search"
                 placeholder="Search for items..."
                 aria-label="Search"
@@ -201,54 +201,54 @@ const Menu = () => {
               </div>
               <div className="editMenuNameBox">
                 <div className="editMenuTitle">Item Type*</div>
-                <div class="form-check form-check-inline">
+                <div className="form-check form-check-inline">
                   <input
-                    class="form-check-input"
+                    className="form-check-input"
                     type="radio"
                     name="itemType"
                     id="inlineRadio1"
                     value="option1"
                   />
-                  <label class="form-check-label" for="inlineRadio1">
+                  <label className="form-check-label" htmlFor="inlineRadio1">
                     Veg
                   </label>
                 </div>
-                <div class="form-check form-check-inline">
+                <div className="form-check form-check-inline">
                   <input
-                    class="form-check-input"
+                    className="form-check-input"
                     type="radio"
                     name="itemType"
                     id="inlineRadio2"
                     value="option2"
                   />
-                  <label class="form-check-label" for="inlineRadio2">
+                  <label className="form-check-label" htmlFor="inlineRadio2">
                     Non Veg
                   </label>
                 </div>
               </div>
               <div className="editMenuNameBox">
                 <div className="editMenuTitle">Out of Stock*</div>
-                <div class="form-check form-check-inline">
+                <div className="form-check form-check-inline">
                   <input
-                    class="form-check-input"
+                    className="form-check-input"
                     type="radio"
                     name="outOfStock"
                     id="inlineRadio1"
                     value="option1"
                   />
-                  <label class="form-check-label" for="inlineRadio1">
+                  <label className="form-check-label" htmlFor="inlineRadio1">
                     Yes
                   </label>
                 </div>
-                <div class="form-check form-check-inline">
+                <div className="form-check form-check-inline">
                   <input
-                    class="form-check-input"
+                    className="form-check-input"
                     type="radio"
                     name="outOfStock"
                     id="inlineRadio2"
                     value="No"
                   />
-                  <label class="form-check-label" for="inlineRadio2">
+                  <label className="form-check-label" htmlFor="inlineRadio2">
                     No
                   </label>
                 </div>
@@ -279,7 +279,7 @@ const Menu = () => {
                 <div className="editMenuTitle">Item Category*</div>
                 <div className="editMenuValue">
                   <select
-                    class="form-select form-select-sm"
+                    className="form-select form-select-sm"
                     aria-label=".form-select-sm example"
                   >
                     <option

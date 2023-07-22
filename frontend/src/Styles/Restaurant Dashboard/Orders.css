@@ -12,7 +12,7 @@
   border-radius: 10px;
   box-shadow: 0 4px 8px 2px rgba(0, 0, 0, 0.12);
   border: 1px solid rgba(0, 0, 0, 0.12);
-  height: 80%;
+  height: 80vh;
   width: 100%;
 }
 .orderSearchBox {
@@ -36,7 +36,7 @@
   gap: 10px;
   width: 100%;
   padding: 5px;
-  height: 90%;
+  height: 85%;
   scrollbar-width: none;
   overflow-y: scroll;
   padding-bottom: 15px;
@@ -91,11 +91,13 @@
   font-weight: 500;
   width: max-content;
   align-items: center;
+  text-transform: capitalize;
 }
 .adminOrderContainer {
   display: flex;
   flex-direction: column;
   gap: 10px;
+  height: 80vh;
 }
 .adminOrderFilterBox {
   display: flex;
@@ -104,7 +106,7 @@
   padding: 10px 15px;
   background-color: #151933;
   border-radius: 6px;
-  justify-content: space-between;
+  justify-content: space-around;
 }
 .adminOrderFilter {
   background-color: #fff;
@@ -116,6 +118,11 @@
   font-weight: 500;
   cursor: pointer;
 }
+.adminFilterBadge {
+  padding: 5px 10px !important;
+  top: 5px !important;
+  background-color: var(--color-red) !important;
+}
 .adminOrderMainBox {
   padding: 5px 15px;
   border-radius: 6px;
@@ -124,7 +131,7 @@
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  height: 70%;
+  height: 70vh;
 }
 .adminOrderBox {
   padding-top: 10px;
@@ -141,33 +148,33 @@
   border: 1px solid var(--border-muted);
   border-radius: 6px;
   width: 100%;
-}
-.adminOrderItemInfoBox {
-  display: flex;
-  gap: 10px;
-  align-items: center;
-}
-.adminOrderItem img {
-  height: 18px !important;
+  cursor: pointer;
 }
 .adminOrderItemInfo {
   display: flex;
   flex-direction: column;
   gap: 0px;
 }
-.adminOrderItemName {
+.adminOrderNumber {
   font-size: 13px;
-  color: var(--color-black);
+  color: var(--color-orange);
+  font-weight: 500;
 }
-.adminOrderCategory {
+.adminOrderInfo {
   font-size: 11px;
   color: var(--color-muted);
   font-weight: 500;
 }
-.adminOrderItemPrice {
-  font-size: 13px;
-  color: var(--color-black);
-  font-weight: 500;
+.adminOrderTimeInfo {
+  font-size: 12px;
+}
+.adminOrderActionBtn {
+  font-size: 14px;
+  color: var(--color-muted);
+  cursor: pointer;
+}
+.adminOrderItemHover {
+  background-color: var(--color-blue-muted);
 }
 .adminOrderMainInfoBox {
   background-color: var(--color-blue-muted);
@@ -223,4 +230,90 @@
 .adminOrderSecondActionBtn {
   background-color: var(--color-orange);
   border: 1px solid var(--color-orange);
+}
+#orderDetailsModal {
+  --bs-modal-header-border-color: #fff !important;
+}
+#orderDetailsModal .btn-close {
+  box-shadow: none;
+}
+.adminOrderDetailModalBody {
+  padding-bottom: 30px !important;
+}
+.adminOrderCustomerDetailBox {
+  padding: 0px 10px 10px 10px !important;
+  border-bottom: 2px solid var(--border-muted);
+}
+.adminOrderDetailBox {
+  padding: 0px 10px 10px 10px !important;
+}
+.adminOrderDetailInfoBox {
+  padding: 0px 10px 10px 10px !important;
+}
+.adminOrderDetailPrintBtnBox {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+.deliveryBoyListItem {
+  display: flex;
+  gap: 35px;
+  justify-content: space-around;
+  padding: 5px 10px;
+  align-items: center;
+  color: var(--color-black);
+  font-size: 14px;
+  cursor: pointer;
+  margin-bottom: 5px;
+  width: 100%;
+}
+.deliveryBoyListItem:hover {
+  background-color: var(--color-blue-muted) !important;
+}
+.dropdown-item:focus,
+.dropdown-item:hover {
+  color: inherit;
+  background-color: inherit;
+}
+.deliveryBoyName {
+  width: max-content;
+  padding: 0px;
+}
+.deliveryBoyDistance {
+  color: var(--color-orange);
+  font-size: 12px;
+  font-weight: 500;
+}
+.adminPastOrderDetailsBox {
+  padding: 10px;
+  border: 1px solid var(--border-muted);
+  max-height: 50%;
+  overflow-y: scroll;
+  scroll-behavior: smooth;
+  /* scrollbar-width: none; */
+}
+.orderFlowBox {
+  /* background-color: var(--color-blue-muted); */
+  padding: 10px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  border: 1px solid var(--border-muted);
+  align-items: center;
+}
+.orderFlow {
+  display: flex;
+  flex-direction: column;
+  gap: 1px;
+}
+.orderFlowValue {
+  font-size: 12px;
+  color: var(--color-main);
+  font-weight: 500;
+}
+.orderFlowTitle {
+  font-size: 12px;
+  color: var(--color-muted);
+  text-transform: capitalize;
+  font-weight: 500;
 }

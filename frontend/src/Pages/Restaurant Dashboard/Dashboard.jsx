@@ -32,7 +32,7 @@ const Dashboard = () => {
                 <span>Overview</span>
               </div>
               <select
-                class="form-select form-select-sm overviewDropBox"
+                className="form-select form-select-sm overviewDropBox"
                 aria-label=".form-select-sm example"
               >
                 <option selected>Today</option>
@@ -86,17 +86,17 @@ const Dashboard = () => {
             className="orderOverViewSubTitle"
             style={{ display: showOrderDetails ? "none" : "" }}
           >
-            <i class="fa-solid fa-file-invoice px-2"></i>Orders
+            <i className="fa-solid fa-file-invoice px-2"></i>Orders
           </div>
           <div
             className="orderOverViewSubTitle orderDetailsPage"
             style={{ display: !showOrderDetails ? "none" : "" }}
           >
             <div>
-              <i class="fa-solid fa-file-invoice px-2"></i>Order Details
+              <i className="fa-solid fa-file-invoice px-2"></i>Order Details
             </div>
             <i
-              class="fa-sharp fa-regular fa-arrow-left"
+              className="fa-sharp fa-regular fa-arrow-left"
               onClick={() => setShowOrderDetails(false)}
             ></i>
           </div>
@@ -108,7 +108,7 @@ const Dashboard = () => {
               className="ordersDashboard"
               onClick={() => setShowOrderDetails(true)}
             >
-              <i class="fa-regular fa-bowl-food ordersDasboardIcon"></i>
+              <i className="fa-regular fa-bowl-food ordersDasboardIcon"></i>
               <div className="ordersDashboardInfoBox">
                 <div className="ordersDashboardInfoTitle">Order Number</div>
                 <div className="ordersDashboardInfo">#ORID78945612</div>
@@ -119,7 +119,7 @@ const Dashboard = () => {
               className="ordersDashboard"
               onClick={() => setShowOrderDetails(true)}
             >
-              <i class="fa-regular fa-bowl-food ordersDasboardIcon"></i>
+              <i className="fa-regular fa-bowl-food ordersDasboardIcon"></i>
               <div className="ordersDashboardInfoBox">
                 <div className="ordersDashboardInfoTitle">Order Number</div>
                 <div className="ordersDashboardInfo">#ORID78945612</div>
@@ -130,7 +130,7 @@ const Dashboard = () => {
               className="ordersDashboard"
               onClick={() => setShowOrderDetails(true)}
             >
-              <i class="fa-regular fa-bowl-food ordersDasboardIcon"></i>
+              <i className="fa-regular fa-bowl-food ordersDasboardIcon"></i>
               <div className="ordersDashboardInfoBox">
                 <div className="ordersDashboardInfoTitle">Order Number</div>
                 <div className="ordersDashboardInfo">#ORID78945612</div>
@@ -141,7 +141,7 @@ const Dashboard = () => {
               className="ordersDashboard"
               onClick={() => setShowOrderDetails(true)}
             >
-              <i class="fa-regular fa-bowl-food ordersDasboardIcon"></i>
+              <i className="fa-regular fa-bowl-food ordersDasboardIcon"></i>
               <div className="ordersDashboardInfoBox">
                 <div className="ordersDashboardInfoTitle">Order Number</div>
                 <div className="ordersDashboardInfo">#ORID78945612</div>
@@ -152,7 +152,7 @@ const Dashboard = () => {
               </div>
             </div>
             <div className="ordersDashboard deliveredOrder">
-              <i class="fa-regular fa-bowl-food ordersDasboardIcon"></i>
+              <i className="fa-regular fa-bowl-food ordersDasboardIcon"></i>
               <div className="ordersDashboardInfoBox">
                 <div className="ordersDashboardInfoTitle">Order Number</div>
                 <div className="ordersDashboardInfo">#ORID78945612</div>
@@ -163,7 +163,7 @@ const Dashboard = () => {
               </div>
             </div>
             <div className="ordersDashboard undeliveredOrder">
-              <i class="fa-regular fa-bowl-food ordersDasboardIcon"></i>
+              <i className="fa-regular fa-bowl-food ordersDasboardIcon"></i>
               <div className="ordersDashboardInfoBox">
                 <div className="ordersDashboardInfoTitle">Order Number</div>
                 <div className="ordersDashboardInfo">#ORID78945612</div>
@@ -214,39 +214,51 @@ const Dashboard = () => {
             <div className="orderDeliveryPersonDetailsBox">
               <div className="orderDeliverPersonTitle">Order Details</div>
               <div className="orderDeliveryMenuDetails">
-                <div class="orderMenuDetailsBox">
-                  <div class="orderMenu" style={{ fontSize: "12px" }}>
+                <div className="orderMenuDetailsBox">
+                  <div className="orderMenu" style={{ fontSize: "12px" }}>
                     <img
                       src="https://res.cloudinary.com/ddzlhdlda/image/upload/v1689236363/icons8-non-vegetarian-food-symbol-48_c9qpyy.png"
                       alt=""
                     />
-                    <span class="orderQuantity">
+                    <span className="orderQuantity">
                       <span style={{ fontSize: "12px" }}>2</span>
-                      <i class="fa-solid fa-xmark"></i>
+                      <i className="fa-solid fa-xmark"></i>
                     </span>
-                    <span class="orderMenuName" style={{ fontSize: "12px" }}>
+                    <span
+                      className="orderMenuName"
+                      style={{ fontSize: "12px" }}
+                    >
                       Double Topping Pizza
                     </span>
                   </div>
-                  <div class="orderMenuSubTitle" style={{ fontSize: "11px" }}>
+                  <div
+                    className="orderMenuSubTitle"
+                    style={{ fontSize: "11px" }}
+                  >
                     Paneer &amp; Onion
                   </div>
                 </div>
-                <div class="orderMenuDetailsBox">
-                  <div class="orderMenu" style={{ fontSize: "12px" }}>
+                <div className="orderMenuDetailsBox">
+                  <div className="orderMenu" style={{ fontSize: "12px" }}>
                     <img
                       src="https://res.cloudinary.com/ddzlhdlda/image/upload/v1689236363/icons8-non-vegetarian-food-symbol-48_c9qpyy.png"
                       alt=""
                     />
-                    <span class="orderQuantity">
+                    <span className="orderQuantity">
                       <span style={{ fontSize: "12px" }}>2</span>
-                      <i class="fa-solid fa-xmark"></i>
+                      <i className="fa-solid fa-xmark"></i>
                     </span>
-                    <span class="orderMenuName" style={{ fontSize: "12px" }}>
+                    <span
+                      className="orderMenuName"
+                      style={{ fontSize: "12px" }}
+                    >
                       Double Topping Pizza
                     </span>
                   </div>
-                  <div class="orderMenuSubTitle" style={{ fontSize: "11px" }}>
+                  <div
+                    className="orderMenuSubTitle"
+                    style={{ fontSize: "11px" }}
+                  >
                     Paneer &amp; Onion
                   </div>
                 </div>

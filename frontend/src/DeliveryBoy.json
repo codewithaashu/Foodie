@@ -1,0 +1,38 @@
+[
+    {
+        "name":"Rohit Kumar",
+        "distance":1.9,
+        "empID":"FDB789456",
+        "img":"https://res.cloudinary.com/ddzlhdlda/image/upload/v1685248438/todoApp/msms4ujwsbxewcropg7a.jpg"
+    },
+    {
+        "name":"Manoj Kumar",
+        "distance":2.7,
+        "empID":"FDB789486",
+        "img":"https://res.cloudinary.com/ddzlhdlda/image/upload/v1685248438/todoApp/msms4ujwsbxewcropg7a.jpg"
+    },
+    {
+        "name":"Kundan Kumar",
+        "distance":0.9,
+        "empID":"FDB789478",
+        "img":"https://res.cloudinary.com/ddzlhdlda/image/upload/v1685248438/todoApp/msms4ujwsbxewcropg7a.jpg"
+    },
+    {
+        "name":"Bittoo Dubey",
+        "distance":2.4,
+        "empID":"FDB789473",
+        "img":"https://res.cloudinary.com/ddzlhdlda/image/upload/v1685248438/todoApp/msms4ujwsbxewcropg7a.jpg"
+    },
+    {
+        "name":"Shivam Jha",
+        "distance":1.4,
+        "empID":"FDB789479",
+        "img":"https://res.cloudinary.com/ddzlhdlda/image/upload/v1685248438/todoApp/msms4ujwsbxewcropg7a.jpg"
+    },
+    {
+        "name":"Shrey Kumar",
+        "distance":8.8,
+        "empID":"FDB789478",
+        "img":"https://res.cloudinary.com/ddzlhdlda/image/upload/v1685248438/todoApp/msms4ujwsbxewcropg7a.jpg"
+    }
+]

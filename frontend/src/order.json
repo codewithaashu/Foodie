@@ -1,0 +1,81 @@
+[
+    {
+        "orderNumber":"#3214567890",
+        "customerName":"Ashish Ranjan",
+        "customerAddress":"Andhra Prince PG, Rasoolpur Nawada,Sector 62, Noida",
+        "customerNumber":7371986179,
+        "orderTimeInfo":"7/22/2023-12:19:26 PM",
+        "orderStatus":"new",
+        "orderDetails":[{"type":"veg","quantity":2,"itemName":"Double Topping Pizza","itemSubCategory":"Paneer & Onion","itemPrice":149},{"type":"non-veg","quantity":1,"itemName":"Chicken Pizza","itemSubCategory":"Chicken Masala","itemPrice":219}]
+    },
+    {
+        "orderNumber":"#321456789789",
+        "customerName":"Shivam Kumar",
+        "customerAddress":"Khan Market, South Delhi,Delhi",
+        "customerNumber":7270986179,
+        "orderTimeInfo":"7/22/2023-12:20:26 PM",
+        "orderStatus":"new",
+        "orderDetails":[{"type":"veg","quantity":1,"itemName":"Double Paneer Pizza","itemSubCategory":"Paneer & Onion","itemPrice":199},{"type":"non-veg","quantity":1,"itemName":"Chicken Pizza","itemSubCategory":"Chicken Masala","itemPrice":219},{"type":"veg","quantity":2,"itemName":"Double Topping Pizza","itemSubCategory":"Paneer & Onion","itemPrice":149}]
+    },
+    {
+        "orderNumber":"#3214567898",
+        "customerName":"Raj Arayn",
+        "customerAddress":"Rasoolpur Nawada,Sector 62, Noida",
+        "customerNumber":8270986179,
+        "orderTimeInfo":"7/22/2023-10:19:26 PM",
+        "orderStatus":"preparing",
+        "orderDetails":[{"type":"non-veg","quantity":2,"itemName":"Double Chicken Pizza","itemSubCategory":"Chicken & Onion","itemPrice":399},{"type":"non-veg","quantity":1,"itemName":"Chicken Pizza","itemSubCategory":"Chicken Masala","itemPrice":219},{"type":"veg","quantity":2,"itemName":"Double Topping Pizza","itemSubCategory":"Paneer & Onion","itemPrice":149}]
+    },
+    {
+        "orderNumber":"#3214567895",
+        "customerName":"Shreya Singh",
+        "customerAddress":"Ayodhya Bypaas, Bhopal",
+        "customerNumber":9220986179,
+        "orderTimeInfo":"7/22/2023-9:19:26 AM",
+        "orderStatus":"preparing",
+        "orderDetails":[{"type":"non-veg","quantity":2,"itemName":"Double Chicken Pizza","itemSubCategory":"Chicken & Onion","itemPrice":399},{"type":"non-veg","quantity":1,"itemName":"Chicken Pizza","itemSubCategory":"Chicken Masala","itemPrice":219}]
+    },
+    {
+        "orderNumber":"#32145678945",
+        "customerName":"Bittoo Kumar",
+        "customerAddress":"Andhra Prince PG, Rasoolpur Nawada,Sector 62, Noida",
+        "customerNumber":7270986179,
+        "orderTimeInfo":"7/21/2023-12:19:26 PM",
+        "orderStatus":"ready",
+        "orderDetails":[{"type":"veg","quantity":2,"itemName":"Double Topping Pizza","itemSubCategory":"Paneer & Onion","itemPrice":149},{"type":"non-veg","quantity":1,"itemName":"Chicken Pizza","itemSubCategory":"Chicken Masala","itemPrice":219}],
+        "deliveryBoyID":"FDB789478"
+    },
+    {
+        "orderNumber":"#32145678912",
+        "customerName":"Kundan Kumar",
+        "customerAddress":"IMS Noida,Sector 63, Noida",
+        "customerNumber":8570986179,
+        "orderTimeInfo":"7/20/2023-12:19:26 PM",
+        "orderStatus":"ready",
+        "orderDetails":[{"type":"veg","quantity":5,"itemName":"Veg Biryani","itemSubCategory":"Paneer & Mushroom","itemPrice":189},{"type":"non-veg","quantity":1,"itemName":"Chicken Pizza","itemSubCategory":"Chicken Masala","itemPrice":219}],
+        "deliveryBoyID":"FDB789473"
+    },
+    {
+        "orderNumber":"#32145678915",
+        "customerName":"Shivam Jha",
+        "customerAddress":"Galgotia Noida,Sector 63, Noida",
+        "customerNumber":88790986179,
+        "orderTimeInfo":"7/20/2023-12:19:26 PM",
+        "orderStatus":"delivered",
+        "orderDetails":[{"type":"veg","quantity":5,"itemName":"Veg Biryani","itemSubCategory":"Paneer & Mushroom","itemPrice":159},{"type":"non-veg","quantity":1,"itemName":"Chicken Pizza","itemSubCategory":"Chicken Masala","itemPrice":219}],
+        "orderFlowDetails":[{"placed":"02:01 PM"},{"confirmed":"02:08 PM"},{"picked up":"02:18 PM"},{"delivered":"02:30 PM"}],
+        "deliveryBoyID":"FDB789473"
+    },
+    {
+        "orderNumber":"#32145678914",
+        "customerName":"Kundan Kumar",
+        "customerAddress":"Rohini Noida,Sector 122, Noida",
+        "customerNumber":6270986179,
+        "orderTimeInfo":"7/20/2023-12:19:26 PM",
+        "orderStatus":"un-delivered",
+        "orderDetails":[{"type":"veg","quantity":5,"itemName":"Veg Biryani","itemSubCategory":"Paneer & Mushroom","itemPrice":179},{"type":"non-veg","quantity":1,"itemName":"Chicken Pizza","itemSubCategory":"Chicken Masala","itemPrice":219}],
+        "orderFlowDetails":[{"placed":"02:11 PM"},{"confirmed":"02:19 PM"},{"picked up":"02:35 PM"},{"delivered":"02:50 PM"}],
+        "cancellationReason":"Cancelled by customer due to late delivery time",
+        "deliveryBoyID":"FDB789479"
+    }
+]
