@@ -6,7 +6,7 @@ const Orders = () => {
       <div className="orderContainer">
         <div className="orderBox">
           <div className="orderHotelDetailsWrapperBox">
-            <a href="#" className="orderHotelDetailsBox anchorText">
+            <a href="/" className="orderHotelDetailsBox anchorText">
               <div className="orderHotelImgBox">
                 <img
                   src="https://img.freepik.com/free-photo/freshly-baked-pizza-rustic-wooden-table-generated-by-ai_24640-80691.jpg?t=st=1689066157~exp=1689069757~hmac=7c3f379a826b894fad6b5a4be324c19ccc79162ce0c25e7c90d3a3f8566179d1&w=1380"

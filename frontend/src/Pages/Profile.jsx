@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from "react";
+import React, { useState } from "react";
 import ProfileComp from "../Components/ProfileComp";
 import Header from "../Components/Header";
 import Footer from "../Components/Footer";
@@ -6,7 +6,6 @@ import Orders from "../Components/Orders";
 import Payments from "../Components/Payments";
 import Addresses from "../Components/Addresses";
 import Offers from "../Components/Offers";
-import { useLocation } from "react-router-dom";
 
 const Profile = () => {
   const [profileComp, setProfileComp] = useState("Orders");

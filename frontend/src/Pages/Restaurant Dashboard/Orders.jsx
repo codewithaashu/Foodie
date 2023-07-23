@@ -481,7 +481,7 @@ const Orders = () => {
                       ? "Confirm Order"
                       : orderFilter === "preparing"
                       ? "Food Prepared"
-                      : "On the way"}
+                      : "Mark Ready"}
                   </button>
                 </div>
               </div>

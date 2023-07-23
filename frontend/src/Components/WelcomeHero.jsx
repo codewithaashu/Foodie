@@ -43,14 +43,22 @@ const WelcomeHero = () => {
               efficient in getting your food wherever you are.
             </div>
             <div className="leftDownloadAppBoxActionImg pt-5">
-              <a href="#">
+              <a
+                href="https://play.google.com/store/apps?hl=en-IN"
+                rel="noreferrer"
+                target="_blank"
+              >
                 <img
                   src="https://res.cloudinary.com/ddzlhdlda/image/upload/v1689347038/play_ip0jfp_rg3wrv.png"
                   alt=""
                   height="54"
                 />
               </a>
-              <a href="#">
+              <a
+                href="https://www.apple.com/in/app-store/"
+                rel="noreferrer"
+                target="_blank"
+              >
                 <img
                   src="https://res.cloudinary.com/ddzlhdlda/image/upload/v1689347023/iOS_ajgrty_qcrl5t.png"
                   alt=""
